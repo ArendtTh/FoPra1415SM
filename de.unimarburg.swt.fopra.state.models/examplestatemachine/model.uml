@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_jwQMoMcXEeSY4eA0j8eWsQ" name="Model">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_jwQMoccXEeSY4eA0j8eWsQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_jz-PAMcXEeSY4eA0j8eWsQ" name="StateMachine1">
+    <region xmi:type="uml:Region" xmi:id="_j2NDoMcXEeSY4eA0j8eWsQ" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_jJyNEMcYEeSOzPdOwrY66Q" source="_XJE0QMcYEeSOzPdOwrY66Q" target="_X9SfcMcYEeSOzPdOwrY66Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_j8XgkMcYEeSOzPdOwrY66Q" source="_XJE0QMcYEeSOzPdOwrY66Q" target="_a61OoMcYEeSOzPdOwrY66Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_mtHJ4McYEeSOzPdOwrY66Q" source="_X9SfcMcYEeSOzPdOwrY66Q" target="_kvip8McYEeSOzPdOwrY66Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_qX4LcMcYEeSOzPdOwrY66Q" source="_a61OoMcYEeSOzPdOwrY66Q" target="_kvip8McYEeSOzPdOwrY66Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_q8oeUMcYEeSOzPdOwrY66Q" source="_kvip8McYEeSOzPdOwrY66Q" target="_oqh40McYEeSOzPdOwrY66Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_rlZHcMcYEeSOzPdOwrY66Q" source="_kvip8McYEeSOzPdOwrY66Q" target="_nxsMUMcYEeSOzPdOwrY66Q"/>
+      <transition xmi:type="uml:Transition" xmi:id="_sQYlMMcYEeSOzPdOwrY66Q" source="_oqh40McYEeSOzPdOwrY66Q" target="_nxsMUMcYEeSOzPdOwrY66Q"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_XJE0QMcYEeSOzPdOwrY66Q" name="A"/>
+      <subvertex xmi:type="uml:State" xmi:id="_X9SfcMcYEeSOzPdOwrY66Q" name="B"/>
+      <subvertex xmi:type="uml:State" xmi:id="_a61OoMcYEeSOzPdOwrY66Q" name="C"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_kvip8McYEeSOzPdOwrY66Q" name="D" kind="choice"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_nxsMUMcYEeSOzPdOwrY66Q" name="F"/>
+      <subvertex xmi:type="uml:State" xmi:id="_oqh40McYEeSOzPdOwrY66Q" name="E">
+        <entry xmi:type="uml:OpaqueBehavior" xmi:id="__2UNgMcZEeSOzPdOwrY66Q" name="testEntry" body="">
+          <language>OCL</language>
+        </entry>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_SIar4McaEeSOzPdOwrY66Q" name="G"/>
+    </region>
+  </packagedElement>
+</uml:Model>

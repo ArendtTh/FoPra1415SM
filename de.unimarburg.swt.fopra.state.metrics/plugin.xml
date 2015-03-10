@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<plugin>
+<extension point="org.eclipse.emf.refactor.metrics">
+<metric id="de.pum.fopra.nfs1" metric_calculate_class="org.eclipse.emf.refactor.metrics.NFS1" metric_context="StateMachine" metric_description="Number of final states of a state machine" metric_metamodel="http://www.eclipse.org/uml2/5.0.0/UML" metric_name="NFS1"/>
+<metric id="de.pum.fopra.nfs2" metric_calculate_class="org.eclipse.emf.refactor.metrics.NFS2" metric_context="StateMachine" metric_description="Number of final states of a state machine" metric_metamodel="http://www.eclipse.org/uml2/5.0.0/UML" metric_name="NFS2"/>
+<metric id="de.pum.fopra.dummy" metric_calculate_class="org.eclipse.emf.refactor.metrics.Dummy" metric_context="StateMachine" metric_description="Dummy metric" metric_metamodel="http://www.eclipse.org/uml2/5.0.0/UML" metric_name="Dummy"/>
+</extension>
+</plugin>
