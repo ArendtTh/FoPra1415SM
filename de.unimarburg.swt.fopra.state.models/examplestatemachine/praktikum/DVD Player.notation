@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:css="http://www.eclipse.org/papyrus/infra/gmfdiag/css" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_R48jIZ2yEeS2PZuUYuh_Bg" type="PapyrusUMLStateMachineDiagram" name="DVD Player" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_R48jIp2yEeS2PZuUYuh_Bg" type="2000">
+      <children xmi:type="notation:DecorationNode" xmi:id="_R48jI52yEeS2PZuUYuh_Bg" type="2001">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R48jJJ2yEeS2PZuUYuh_Bg" width="1069" height="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_R48jJZ2yEeS2PZuUYuh_Bg" type="2002">
+        <children xmi:type="notation:Shape" xmi:id="_R48jJp2yEeS2PZuUYuh_Bg" type="3000">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_R48jJ52yEeS2PZuUYuh_Bg" source="RegionAnnotationKey">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_R48jKJ2yEeS2PZuUYuh_Bg" key="RegionZoneKey" value=""/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_R48jKZ2yEeS2PZuUYuh_Bg" type="3002">
+            <children xmi:type="notation:Shape" xmi:id="_CSvN0J2zEeS2PZuUYuh_Bg" type="6000">
+              <children xmi:type="notation:DecorationNode" xmi:id="_CSvN0p2zEeS2PZuUYuh_Bg" type="6001">
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DdHWQJ2zEeS2PZuUYuh_Bg" width="922"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_CSvN052zEeS2PZuUYuh_Bg" type="6002">
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CSvN1J2zEeS2PZuUYuh_Bg" y="-1" width="922"/>
+              </children>
+              <children xmi:type="notation:BasicCompartment" xmi:id="_OIp9UKizEeStaaExlMgQAA" type="compartment_shape_display">
+                <styles xmi:type="notation:TitleStyle" xmi:id="_OIp9UaizEeStaaExlMgQAA"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OIp9UqizEeStaaExlMgQAA"/>
+              </children>
+              <children xmi:type="notation:Shape" xmi:id="_JaoY4Ki8EeStaaExlMgQAA" type="690">
+                <element xmi:type="uml:Activity" href="DVD%20Player.uml#_JalVkKi8EeStaaExlMgQAA"/>
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_JaoY4ai8EeStaaExlMgQAA" x="-967" y="-59"/>
+              </children>
+              <element xmi:type="uml:State" href="DVD%20Player.uml#_CSumwJ2zEeS2PZuUYuh_Bg"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CSvN0Z2zEeS2PZuUYuh_Bg" x="67" y="60" width="922" height="56"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_HvWngJ2zEeS2PZuUYuh_Bg" type="5000">
+              <children xmi:type="notation:DecorationNode" xmi:id="_HvXOkJ2zEeS2PZuUYuh_Bg" type="5001">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_HvXOkZ2zEeS2PZuUYuh_Bg" x="25" y="3"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_HvXOkp2zEeS2PZuUYuh_Bg" type="5002">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_HvX1oJ2zEeS2PZuUYuh_Bg" x="25" y="-10"/>
+              </children>
+              <element xmi:type="uml:FinalState" href="DVD%20Player.uml#_HvULQJ2zEeS2PZuUYuh_Bg"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HvWngZ2zEeS2PZuUYuh_Bg" x="1016" y="70" width="24" height="26"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_djKSEJ2zEeS2PZuUYuh_Bg" type="6000">
+              <children xmi:type="notation:DecorationNode" xmi:id="_djK5IJ2zEeS2PZuUYuh_Bg" type="6001">
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_edVbUJ2zEeS2PZuUYuh_Bg" width="976" height="20"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_djK5IZ2zEeS2PZuUYuh_Bg" type="6002">
+                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UB1QUJ20EeS2PZuUYuh_Bg" source="PapyrusCSSForceValue">
+                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UB1QUZ20EeS2PZuUYuh_Bg" key="visible" value="true"/>
+                </eAnnotations>
+                <children xmi:type="notation:Shape" xmi:id="_UB1QU520EeS2PZuUYuh_Bg" type="3000">
+                  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UB1QV520EeS2PZuUYuh_Bg" source="RegionAnnotationKey">
+                    <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UB1QWJ20EeS2PZuUYuh_Bg" key="RegionZoneKey" value=""/>
+                  </eAnnotations>
+                  <children xmi:type="notation:DecorationNode" xmi:id="_UB1QVZ20EeS2PZuUYuh_Bg" type="3002">
+                    <children xmi:type="notation:Shape" xmi:id="_UB13YZ20EeS2PZuUYuh_Bg" type="8000">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_UB13Y520EeS2PZuUYuh_Bg" type="8001">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_UB13ZJ20EeS2PZuUYuh_Bg" x="25" y="3"/>
+                      </children>
+                      <children xmi:type="notation:DecorationNode" xmi:id="_UB13ZZ20EeS2PZuUYuh_Bg" type="8002">
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_UB13Zp20EeS2PZuUYuh_Bg" x="25" y="-10"/>
+                      </children>
+                      <element xmi:type="uml:Pseudostate" href="DVD%20Player.uml#_UB13YJ20EeS2PZuUYuh_Bg"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UB13Yp20EeS2PZuUYuh_Bg" x="299" y="20" width="20" height="19"/>
+                    </children>
+                    <children xmi:type="notation:Shape" xmi:id="_VP0tcJ20EeS2PZuUYuh_Bg" type="6000">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_VP1UgJ20EeS2PZuUYuh_Bg" type="6001">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GX2p8KQSEeSTA8wNzETUGw" width="120"/>
+                      </children>
+                      <children xmi:type="notation:DecorationNode" xmi:id="_VP1UgZ20EeS2PZuUYuh_Bg" type="6002">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VP1Ugp20EeS2PZuUYuh_Bg" y="-1" width="120"/>
+                      </children>
+                      <children xmi:type="notation:BasicCompartment" xmi:id="_6onrYKGPEeS7Yddlbj_DGQ" type="compartment_shape_display">
+                        <styles xmi:type="notation:TitleStyle" xmi:id="_6onrYaGPEeS7Yddlbj_DGQ"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6onrYqGPEeS7Yddlbj_DGQ"/>
+                      </children>
+                      <children xmi:type="notation:Shape" xmi:id="_mdWV0KGYEeS7Yddlbj_DGQ" type="691">
+                        <element xmi:type="uml:Activity" href="DVD%20Player.uml#_mc6Q8KGYEeS7Yddlbj_DGQ"/>
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_mdWV0aGYEeS7Yddlbj_DGQ" x="-875" y="-320"/>
+                      </children>
+                      <element xmi:type="uml:State" href="DVD%20Player.uml#_VPzfUJ20EeS2PZuUYuh_Bg"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VP0tcZ20EeS2PZuUYuh_Bg" x="381" y="132" width="120" height="96"/>
+                    </children>
+                    <children xmi:type="notation:Shape" xmi:id="_m4Rx4J20EeS2PZuUYuh_Bg" type="6000">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_m4Rx4p20EeS2PZuUYuh_Bg" type="6001">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_bx3J4KQREeSTA8wNzETUGw" width="103"/>
+                      </children>
+                      <children xmi:type="notation:DecorationNode" xmi:id="_m4Rx4520EeS2PZuUYuh_Bg" type="6002">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m4Rx5J20EeS2PZuUYuh_Bg" y="-1" width="103"/>
+                      </children>
+                      <children xmi:type="notation:BasicCompartment" xmi:id="_OIvc4KizEeStaaExlMgQAA" type="compartment_shape_display">
+                        <styles xmi:type="notation:TitleStyle" xmi:id="_OIvc4aizEeStaaExlMgQAA"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OIvc4qizEeStaaExlMgQAA"/>
+                      </children>
+                      <children xmi:type="notation:Shape" xmi:id="_z8TL4Ki3EeStaaExlMgQAA" type="692">
+                        <element xmi:type="uml:Activity" href="DVD%20Player.uml#_z6MTEKi3EeStaaExlMgQAA"/>
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_z8TL4ai3EeStaaExlMgQAA" x="-23" y="-163"/>
+                      </children>
+                      <element xmi:type="uml:State" href="DVD%20Player.uml#_m4RK0J20EeS2PZuUYuh_Bg"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m4Rx4Z20EeS2PZuUYuh_Bg" x="9" y="64" width="103" height="130"/>
+                    </children>
+                    <children xmi:type="notation:Shape" xmi:id="_uY0LIJ20EeS2PZuUYuh_Bg" type="6000">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_uY0yMJ20EeS2PZuUYuh_Bg" type="6001">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eSO04KQREeSTA8wNzETUGw" width="90"/>
+                      </children>
+                      <children xmi:type="notation:DecorationNode" xmi:id="_uY0yMZ20EeS2PZuUYuh_Bg" type="6002">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uY0yMp20EeS2PZuUYuh_Bg" y="-1" width="90"/>
+                      </children>
+                      <element xmi:type="uml:State" href="DVD%20Player.uml#_uYyV8J20EeS2PZuUYuh_Bg"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uY0LIZ20EeS2PZuUYuh_Bg" x="23" y="431" width="90" height="33"/>
+                    </children>
+                    <children xmi:type="notation:Shape" xmi:id="_wF4J4J20EeS2PZuUYuh_Bg" type="6000">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_wF4J4p20EeS2PZuUYuh_Bg" type="6001">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AeDacKQREeSTA8wNzETUGw" width="100"/>
+                      </children>
+                      <children xmi:type="notation:DecorationNode" xmi:id="_wF4J4520EeS2PZuUYuh_Bg" type="6002">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wF4J5J20EeS2PZuUYuh_Bg" y="-1" width="100"/>
+                      </children>
+                      <element xmi:type="uml:State" href="DVD%20Player.uml#_wF3i0J20EeS2PZuUYuh_Bg"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wF4J4Z20EeS2PZuUYuh_Bg" x="797" y="130" width="100" height="45"/>
+                    </children>
+                    <children xmi:type="notation:Shape" xmi:id="_yXrNYJ20EeS2PZuUYuh_Bg" type="6000">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_yXrNYp20EeS2PZuUYuh_Bg" type="6001">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M1q3YKQREeSTA8wNzETUGw" width="84"/>
+                      </children>
+                      <children xmi:type="notation:DecorationNode" xmi:id="_yXrNY520EeS2PZuUYuh_Bg" type="6002">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yXrNZJ20EeS2PZuUYuh_Bg" y="-1" width="84"/>
+                      </children>
+                      <element xmi:type="uml:State" href="DVD%20Player.uml#_yXqmUJ20EeS2PZuUYuh_Bg"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yXrNYZ20EeS2PZuUYuh_Bg" x="777" y="206" width="84" height="39"/>
+                    </children>
+                    <children xmi:type="notation:Shape" xmi:id="_zIMrYJ20EeS2PZuUYuh_Bg" type="6000">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_zIMrYp20EeS2PZuUYuh_Bg" type="6001">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XIi1YKQREeSTA8wNzETUGw" width="99"/>
+                      </children>
+                      <children xmi:type="notation:DecorationNode" xmi:id="_zINScJ20EeS2PZuUYuh_Bg" type="6002">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zINScZ20EeS2PZuUYuh_Bg" y="-1" width="99"/>
+                      </children>
+                      <element xmi:type="uml:State" href="DVD%20Player.uml#_zIMEUJ20EeS2PZuUYuh_Bg"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zIMrYZ20EeS2PZuUYuh_Bg" x="416" y="12" width="99" height="32"/>
+                    </children>
+                    <children xmi:type="notation:Shape" xmi:id="_1_FY8J20EeS2PZuUYuh_Bg" type="6000">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_1_FY8p20EeS2PZuUYuh_Bg" type="6001">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fhW6cKQREeSTA8wNzETUGw" width="140"/>
+                      </children>
+                      <children xmi:type="notation:DecorationNode" xmi:id="_1_FY8520EeS2PZuUYuh_Bg" type="6002">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1_FY9J20EeS2PZuUYuh_Bg" y="-1" width="140"/>
+                      </children>
+                      <children xmi:type="notation:BasicCompartment" xmi:id="_KqhnwKQMEeSTA8wNzETUGw" type="compartment_shape_display">
+                        <styles xmi:type="notation:TitleStyle" xmi:id="_KqhnwaQMEeSTA8wNzETUGw"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KqhnwqQMEeSTA8wNzETUGw"/>
+                      </children>
+                      <children xmi:type="notation:Shape" xmi:id="_TKT6sKQQEeSTA8wNzETUGw" type="691">
+                        <element xmi:type="uml:Activity" href="DVD%20Player.uml#_TKF4QKQQEeSTA8wNzETUGw"/>
+                        <layoutConstraint xmi:type="notation:Location" xmi:id="_TKT6saQQEeSTA8wNzETUGw" x="-671" y="-570"/>
+                      </children>
+                      <element xmi:type="uml:State" href="DVD%20Player.uml#_1_EK0J20EeS2PZuUYuh_Bg"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1_FY8Z20EeS2PZuUYuh_Bg" x="71" y="327" width="140" height="53"/>
+                    </children>
+                    <children xmi:type="notation:Shape" xmi:id="_ZmIw8J21EeS2PZuUYuh_Bg" type="6000">
+                      <children xmi:type="notation:DecorationNode" xmi:id="_ZmIw8p21EeS2PZuUYuh_Bg" type="6001">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__9ttgKQQEeSTA8wNzETUGw" width="75"/>
+                      </children>
+                      <children xmi:type="notation:DecorationNode" xmi:id="_ZmIw8521EeS2PZuUYuh_Bg" type="6002">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZmIw9J21EeS2PZuUYuh_Bg" y="-1" width="75"/>
+                      </children>
+                      <element xmi:type="uml:State" href="DVD%20Player.uml#_ZmHi0J21EeS2PZuUYuh_Bg"/>
+                      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZmIw8Z21EeS2PZuUYuh_Bg" x="839" y="334" width="75" height="29"/>
+                    </children>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UB1QVp20EeS2PZuUYuh_Bg"/>
+                  </children>
+                  <element xmi:type="uml:Region" href="DVD%20Player.uml#_UB1QUp20EeS2PZuUYuh_Bg"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UB1QVJ20EeS2PZuUYuh_Bg" width="976" height="499"/>
+                </children>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_djK5Ip2zEeS2PZuUYuh_Bg" y="20" width="976" height="499"/>
+              </children>
+              <element xmi:type="uml:State" href="DVD%20Player.uml#_djH10J2zEeS2PZuUYuh_Bg"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_djKSEZ2zEeS2PZuUYuh_Bg" x="23" y="179" width="976" height="519"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_MbPLAJ23EeS2PZuUYuh_Bg" type="8000">
+              <children xmi:type="notation:DecorationNode" xmi:id="_MbPLAp23EeS2PZuUYuh_Bg" type="8001">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_MbPLA523EeS2PZuUYuh_Bg" x="25" y="3"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_MbPLBJ23EeS2PZuUYuh_Bg" type="8002">
+                <layoutConstraint xmi:type="notation:Location" xmi:id="_MbPLBZ23EeS2PZuUYuh_Bg" x="25" y="-10"/>
+              </children>
+              <element xmi:type="uml:Pseudostate" href="DVD%20Player.uml#_MbN84J23EeS2PZuUYuh_Bg"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MbPLAZ23EeS2PZuUYuh_Bg" x="6" y="75" width="26" height="26"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_kb3soKGgEeS7Yddlbj_DGQ" type="6000">
+              <children xmi:type="notation:DecorationNode" xmi:id="_kb3soqGgEeS7Yddlbj_DGQ" type="6001">
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="__tEM8KGgEeS7Yddlbj_DGQ" width="61"/>
+              </children>
+              <children xmi:type="notation:DecorationNode" xmi:id="_kb3so6GgEeS7Yddlbj_DGQ" type="6002">
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kb3spKGgEeS7Yddlbj_DGQ" y="-1" width="61"/>
+              </children>
+              <element xmi:type="uml:State" href="DVD%20Player.uml#_kb13cKGgEeS7Yddlbj_DGQ"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kb3soaGgEeS7Yddlbj_DGQ" x="171" y="6" width="61" height="37"/>
+            </children>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R48jKp2yEeS2PZuUYuh_Bg"/>
+          </children>
+          <element xmi:type="uml:Region" href="DVD%20Player.uml#_R48jIJ2yEeS2PZuUYuh_Bg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R48jK52yEeS2PZuUYuh_Bg" width="1069" height="717"/>
+        </children>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R48jLJ2yEeS2PZuUYuh_Bg" y="20" width="1069" height="717"/>
+      </children>
+      <element xmi:type="uml:StateMachine" href="DVD%20Player.uml#_R478EJ2yEeS2PZuUYuh_Bg"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R48jLZ2yEeS2PZuUYuh_Bg" x="630" y="150" width="1069" height="737"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_R48jLp2yEeS2PZuUYuh_Bg" name="diagram_compatibility_version" stringValue="1.0.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_R48jL52yEeS2PZuUYuh_Bg"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_R48jMJ2yEeS2PZuUYuh_Bg">
+      <owner xmi:type="uml:Model" href="DVD%20Player.uml#_R47VAJ2yEeS2PZuUYuh_Bg"/>
+    </styles>
+    <element xmi:type="uml:StateMachine" href="DVD%20Player.uml#_R478EJ2yEeS2PZuUYuh_Bg"/>
+    <edges xmi:type="notation:Connector" xmi:id="_EMbTUJ2zEeS2PZuUYuh_Bg" type="7000" source="_MbPLAJ23EeS2PZuUYuh_Bg" target="_CSvN0J2zEeS2PZuUYuh_Bg" routing="Rectilinear">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JdZrcJ24EeS2PZuUYuh_Bg" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JdZrcZ24EeS2PZuUYuh_Bg" key="routing" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_EMb6YJ2zEeS2PZuUYuh_Bg" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_EMb6YZ2zEeS2PZuUYuh_Bg" x="-1" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_EMb6Yp2zEeS2PZuUYuh_Bg" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_EMb6Y52zEeS2PZuUYuh_Bg" x="-7" y="-33"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_EMchcJ2zEeS2PZuUYuh_Bg" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_EMchcZ2zEeS2PZuUYuh_Bg" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_EMbTUZ2zEeS2PZuUYuh_Bg"/>
+      <styles xmi:type="notation:StringListValueStyle" xmi:id="_VzABEJ22EeS2PZuUYuh_Bg" name="cssClass"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_EMWa0J2zEeS2PZuUYuh_Bg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_EMbTUp2zEeS2PZuUYuh_Bg" points="[20, 5, -210, -56]$[227, 60, -3, -1]"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EMgy4J2zEeS2PZuUYuh_Bg" id="(0.019230769230769232,0.4827586206896552)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_22xrYJ2zEeS2PZuUYuh_Bg" type="7000" source="_CSvN0J2zEeS2PZuUYuh_Bg" target="_djKSEJ2zEeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_22xrY52zEeS2PZuUYuh_Bg" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_22yScJ2zEeS2PZuUYuh_Bg" x="102" y="33"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_22yScZ2zEeS2PZuUYuh_Bg" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_22yScp2zEeS2PZuUYuh_Bg" x="-7" y="-107"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_22ySc52zEeS2PZuUYuh_Bg" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_22ySdJ2zEeS2PZuUYuh_Bg" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_22xrYZ2zEeS2PZuUYuh_Bg"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_22wdQJ2zEeS2PZuUYuh_Bg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_22xrYp2zEeS2PZuUYuh_Bg" points="[-6, 15, 33, -93]$[-111, 69, -72, -39]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_223K8J2zEeS2PZuUYuh_Bg" id="(0.05856832971800434,0.9285714285714286)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_223K8Z2zEeS2PZuUYuh_Bg" id="(0.10130246020260492,0.00424929178470255)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_cIOIoJ20EeS2PZuUYuh_Bg" type="7000" source="_UB13YZ20EeS2PZuUYuh_Bg" target="_VP0tcJ20EeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_cIOIo520EeS2PZuUYuh_Bg" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cIOIpJ20EeS2PZuUYuh_Bg" x="28" y="-23"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_cIOIpZ20EeS2PZuUYuh_Bg" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cIOIpp20EeS2PZuUYuh_Bg" x="-55" y="8"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_cIOIp520EeS2PZuUYuh_Bg" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cIOIqJ20EeS2PZuUYuh_Bg" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_cIOIoZ20EeS2PZuUYuh_Bg"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_cIMTcJ20EeS2PZuUYuh_Bg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cIOIop20EeS2PZuUYuh_Bg" points="[8, 10, -124, -140]$[89, 102, -43, -48]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_MqbvgJ21EeS2PZuUYuh_Bg" type="7000" source="_yXrNYJ20EeS2PZuUYuh_Bg" target="_ZmIw8J21EeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Mqbvg521EeS2PZuUYuh_Bg" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MqbvhJ21EeS2PZuUYuh_Bg"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_MqbvhZ21EeS2PZuUYuh_Bg" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Mqbvhp21EeS2PZuUYuh_Bg" x="-33" y="-4"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_MqcWkJ21EeS2PZuUYuh_Bg" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MqcWkZ21EeS2PZuUYuh_Bg" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_MqbvgZ21EeS2PZuUYuh_Bg"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_MqahYJ21EeS2PZuUYuh_Bg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Mqbvgp21EeS2PZuUYuh_Bg" points="[-15, 3, 87, -1]$[-107, -11, -5, -15]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ULFQEL57EeSnbdGNH2yzDg" id="(0.8095238095238095,0.8518518518518519)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fqGegJ21EeS2PZuUYuh_Bg" id="(0.2,0.06896551724137931)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_PIXKgJ21EeS2PZuUYuh_Bg" type="7000" source="_m4Rx4J20EeS2PZuUYuh_Bg" target="_1_FY8J20EeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_PIXKg521EeS2PZuUYuh_Bg" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_PIXKhJ21EeS2PZuUYuh_Bg"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_PIXKhZ21EeS2PZuUYuh_Bg" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_PIXKhp21EeS2PZuUYuh_Bg" x="10" y="-75"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_PIXKh521EeS2PZuUYuh_Bg" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_PIXKiJ21EeS2PZuUYuh_Bg" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_PIXKgZ21EeS2PZuUYuh_Bg"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_PIVVUJ21EeS2PZuUYuh_Bg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PIXKgp21EeS2PZuUYuh_Bg" points="[13, 6, -93, -43]$[112, 34, 6, -15]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_PIefQJ21EeS2PZuUYuh_Bg" id="(0.6704545454545454,0.9014084507042254)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_EY9GAL55EeSnbdGNH2yzDg" id="(0.07142857142857142,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_QSOVkJ21EeS2PZuUYuh_Bg" type="7000" source="_wF4J4J20EeS2PZuUYuh_Bg" target="_ZmIw8J21EeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_QSOVk521EeS2PZuUYuh_Bg" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QSOVlJ21EeS2PZuUYuh_Bg"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_QSOVlZ21EeS2PZuUYuh_Bg" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QSOVlp21EeS2PZuUYuh_Bg" x="-65" y="-3"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_QSOVl521EeS2PZuUYuh_Bg" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QSOVmJ21EeS2PZuUYuh_Bg" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_QSOVkZ21EeS2PZuUYuh_Bg"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_QSNHcJ21EeS2PZuUYuh_Bg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QSOVkp21EeS2PZuUYuh_Bg" points="[-35, 8, 292, -71]$[-327, 76, 0, -3]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jpFmoKi4EeStaaExlMgQAA" id="(0.85,0.7916666666666666)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_72mN8L55EeSnbdGNH2yzDg" id="(0.6666666666666666,0.1724137931034483)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_QzyKgJ21EeS2PZuUYuh_Bg" type="7000" source="_VP0tcJ20EeS2PZuUYuh_Bg" target="_wF4J4J20EeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_QzyKg521EeS2PZuUYuh_Bg" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QzyKhJ21EeS2PZuUYuh_Bg"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_QzyKhZ21EeS2PZuUYuh_Bg" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QzyKhp21EeS2PZuUYuh_Bg" x="-61" y="-7"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_QzyKh521EeS2PZuUYuh_Bg" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_QzyKiJ21EeS2PZuUYuh_Bg" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_QzyKgZ21EeS2PZuUYuh_Bg"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_Qzw8YJ21EeS2PZuUYuh_Bg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QzyKgp21EeS2PZuUYuh_Bg" points="[25, 2, -224, -13]$[250, 29, 1, 14]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QYL74KQREeSTA8wNzETUGw" id="(0.9802631578947368,0.3076923076923077)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Qz104J21EeS2PZuUYuh_Bg" id="(0.17391304347826086,0.55)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_RTb68J21EeS2PZuUYuh_Bg" type="7000" source="_VP0tcJ20EeS2PZuUYuh_Bg" target="_zIMrYJ20EeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_RTciAJ21EeS2PZuUYuh_Bg" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_RTciAZ21EeS2PZuUYuh_Bg"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_RTciAp21EeS2PZuUYuh_Bg" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_RTciA521EeS2PZuUYuh_Bg" x="-3" y="64"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_RTciBJ21EeS2PZuUYuh_Bg" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_RTciBZ21EeS2PZuUYuh_Bg" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_RTb68Z21EeS2PZuUYuh_Bg"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_RTas0J21EeS2PZuUYuh_Bg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RTb68p21EeS2PZuUYuh_Bg" points="[25, 8, -133, -40]$[158, 45, 0, -3]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_A3B3YL55EeSnbdGNH2yzDg" id="(0.7,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RTflUJ21EeS2PZuUYuh_Bg" id="(0.5151515151515151,0.96875)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_ULPOgJ21EeS2PZuUYuh_Bg" type="7000" source="_m4Rx4J20EeS2PZuUYuh_Bg" target="_uY0LIJ20EeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ULPOg521EeS2PZuUYuh_Bg" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ULPOhJ21EeS2PZuUYuh_Bg"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ULPOhZ21EeS2PZuUYuh_Bg" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ULPOhp21EeS2PZuUYuh_Bg" x="-64" y="3"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ULPOh521EeS2PZuUYuh_Bg" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ULPOiJ21EeS2PZuUYuh_Bg" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_ULPOgZ21EeS2PZuUYuh_Bg"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_ULOAYJ21EeS2PZuUYuh_Bg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ULPOgp21EeS2PZuUYuh_Bg" points="[-21, -6, 57, 0]$[-77, -7, 1, -1]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_swcpMKi3EeStaaExlMgQAA" id="(0.5048543689320388,0.9753086419753086)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ULS44J21EeS2PZuUYuh_Bg" id="(0.425531914893617,0.075)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_dkv7kJ21EeS2PZuUYuh_Bg" type="7000" source="_zIMrYJ20EeS2PZuUYuh_Bg" target="_ZmIw8J21EeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_dkv7k521EeS2PZuUYuh_Bg" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dkv7lJ21EeS2PZuUYuh_Bg"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_dkv7lZ21EeS2PZuUYuh_Bg" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dkv7lp21EeS2PZuUYuh_Bg" x="-140" y="-41"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_dkv7l521EeS2PZuUYuh_Bg" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dkv7mJ21EeS2PZuUYuh_Bg" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_dkv7kZ21EeS2PZuUYuh_Bg"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_dkuGYJ21EeS2PZuUYuh_Bg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dkv7kp21EeS2PZuUYuh_Bg" points="[19, 16, -334, -265]$[347, 276, -6, -5]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dky-4J21EeS2PZuUYuh_Bg" id="(0.7741935483870968,0.525)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VNAAEL57EeSnbdGNH2yzDg" id="(0.08,0.3103448275862069)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_igXhAJ21EeS2PZuUYuh_Bg" type="7000" source="_VP0tcJ20EeS2PZuUYuh_Bg" target="_yXrNYJ20EeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_igXhA521EeS2PZuUYuh_Bg" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_igXhBJ21EeS2PZuUYuh_Bg"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_igXhBZ21EeS2PZuUYuh_Bg" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_igXhBp21EeS2PZuUYuh_Bg" x="-59" y="-10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_igXhB521EeS2PZuUYuh_Bg" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_igXhCJ21EeS2PZuUYuh_Bg" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_igXhAZ21EeS2PZuUYuh_Bg"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_igVr0J21EeS2PZuUYuh_Bg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_igXhAp21EeS2PZuUYuh_Bg" points="[76, 4, -330, 0]$[378, 4, -28, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qKYY8L57EeSnbdGNH2yzDg" id="(0.975,0.7373737373737373)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_N7pA8KQREeSTA8wNzETUGw" id="(0.05357142857142857,0.1388888888888889)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_lwyv8J21EeS2PZuUYuh_Bg" type="7000" source="_ZmIw8J21EeS2PZuUYuh_Bg" target="_m4Rx4J20EeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_lwzXAJ21EeS2PZuUYuh_Bg" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lwzXAZ21EeS2PZuUYuh_Bg" x="-5" y="-14"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_lwzXAp21EeS2PZuUYuh_Bg" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lwzXA521EeS2PZuUYuh_Bg" x="-33" y="12"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_lwzXBJ21EeS2PZuUYuh_Bg" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_lwzXBZ21EeS2PZuUYuh_Bg" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_lwyv8Z21EeS2PZuUYuh_Bg"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_lwxh0J21EeS2PZuUYuh_Bg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lwyv8p21EeS2PZuUYuh_Bg" points="[-8, -11, 744, 145]$[-448, -11, 304, 145]$[-746, -153, 6, 3]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lw5doJ21EeS2PZuUYuh_Bg" id="(0.10666666666666667,0.4482758620689655)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cLWn8KQREeSTA8wNzETUGw" id="(0.8349514563106796,0.9769230769230769)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_1glCkJ21EeS2PZuUYuh_Bg" type="7000" source="_1_FY8J20EeS2PZuUYuh_Bg" target="_ZmIw8J21EeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_1glCk521EeS2PZuUYuh_Bg" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_1glClJ21EeS2PZuUYuh_Bg"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_1glClZ21EeS2PZuUYuh_Bg" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_1glClp21EeS2PZuUYuh_Bg" x="-207" y="-11"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_1glCl521EeS2PZuUYuh_Bg" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_1glCmJ21EeS2PZuUYuh_Bg" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_1glCkZ21EeS2PZuUYuh_Bg"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_1gjNYJ21EeS2PZuUYuh_Bg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_1glCkp21EeS2PZuUYuh_Bg" points="[25, -11, -269, 120]$[295, -121, 1, 10]"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1gpUAJ21EeS2PZuUYuh_Bg" id="(0.29508196721311475,0.8)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_8dcHAJ21EeS2PZuUYuh_Bg" type="7000" source="_VP0tcJ20EeS2PZuUYuh_Bg" target="_CSvN0J2zEeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_8dcHA521EeS2PZuUYuh_Bg" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8dcuEJ21EeS2PZuUYuh_Bg"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_8dcuEZ21EeS2PZuUYuh_Bg" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8dcuEp21EeS2PZuUYuh_Bg" x="74" y="35"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_8dcuE521EeS2PZuUYuh_Bg" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8dcuFJ21EeS2PZuUYuh_Bg" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_8dcHAZ21EeS2PZuUYuh_Bg"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_8dWncJ21EeS2PZuUYuh_Bg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8dcHAp21EeS2PZuUYuh_Bg" points="[3, -20, -58, 419]$[60, -432, -1, 7]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_JzTj8L57EeSnbdGNH2yzDg" id="(0.24166666666666667,0.22641509433962265)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8dhmkJ21EeS2PZuUYuh_Bg" id="(0.3969631236442516,0.9642857142857143)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_9dsDEJ21EeS2PZuUYuh_Bg" type="7000" source="_wF4J4J20EeS2PZuUYuh_Bg" target="_CSvN0J2zEeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_9dsDE521EeS2PZuUYuh_Bg" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9dsDFJ21EeS2PZuUYuh_Bg"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_9dsDFZ21EeS2PZuUYuh_Bg" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9dsDFp21EeS2PZuUYuh_Bg" x="80" y="-5"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_9dsDF521EeS2PZuUYuh_Bg" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9dsDGJ21EeS2PZuUYuh_Bg" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_9dsDEZ21EeS2PZuUYuh_Bg"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_9dq08J21EeS2PZuUYuh_Bg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9dsDEp21EeS2PZuUYuh_Bg" points="[-8, -41, 0, 233]$[-8, -224, 0, 50]$[-8, -254, 0, 20]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Gwi9kL57EeSnbdGNH2yzDg" id="(0.36,0.9166666666666666)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5-qRYL54EeSnbdGNH2yzDg" id="(0.8485221674876847,0.6428571428571429)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_90pKgJ21EeS2PZuUYuh_Bg" type="7000" source="_zIMrYJ20EeS2PZuUYuh_Bg" target="_CSvN0J2zEeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_90pKg521EeS2PZuUYuh_Bg" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_90pKhJ21EeS2PZuUYuh_Bg"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_90pKhZ21EeS2PZuUYuh_Bg" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_90pKhp21EeS2PZuUYuh_Bg" x="36" y="119"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_90pKh521EeS2PZuUYuh_Bg" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_90pKiJ21EeS2PZuUYuh_Bg" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_90pKgZ21EeS2PZuUYuh_Bg"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_90nVUJ21EeS2PZuUYuh_Bg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_90pKgp21EeS2PZuUYuh_Bg" points="[-9, -8, -7, 287]$[-9, -338, -7, -43]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_90uDAJ21EeS2PZuUYuh_Bg" id="(0.5353535353535354,0.0625)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZQBEkKi5EeStaaExlMgQAA" id="(0.455531453362256,0.9642857142857143)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_-6zhUJ21EeS2PZuUYuh_Bg" type="7000" source="_uY0LIJ20EeS2PZuUYuh_Bg" target="_CSvN0J2zEeS2PZuUYuh_Bg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kNdToKGUEeS7Yddlbj_DGQ" source="Stereotype_Annotation">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kNd6sKGUEeS7Yddlbj_DGQ" key="StereotypeWithQualifiedNameList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kNd6saGUEeS7Yddlbj_DGQ" key="StereotypeList" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kNd6sqGUEeS7Yddlbj_DGQ" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kNd6s6GUEeS7Yddlbj_DGQ" key="PropStereoDisplay" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kNehwKGUEeS7Yddlbj_DGQ" key="StereotypePropertyLocation" value="Compartment"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kxyvwKGUEeS7Yddlbj_DGQ" source="PapyrusCSSForceValue">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kxzW0KGUEeS7Yddlbj_DGQ" key="avoidObstructions" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lffjQKGUEeS7Yddlbj_DGQ" key="closestDistance" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zF68sKGUEeS7Yddlbj_DGQ" key="routing" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1KNIoKGUEeS7Yddlbj_DGQ" key="roundedBendpointsRadius" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1tCI4KGUEeS7Yddlbj_DGQ" key="jumpLinkStatus" value="true"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2WeHcKGUEeS7Yddlbj_DGQ" key="jumpLinkType" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-6zhU521EeS2PZuUYuh_Bg" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-6zhVJ21EeS2PZuUYuh_Bg"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-6zhVZ21EeS2PZuUYuh_Bg" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-6zhVp21EeS2PZuUYuh_Bg" x="-491" y="14"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-6zhV521EeS2PZuUYuh_Bg" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-6zhWJ21EeS2PZuUYuh_Bg" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_-6zhUZ21EeS2PZuUYuh_Bg"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_-6xsIJ21EeS2PZuUYuh_Bg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_-6zhUp21EeS2PZuUYuh_Bg" points="[36, 0, -821, 547]$[870, 0, 13, 547]$[857, -542, 0, 5]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WPJWYL53EeSnbdGNH2yzDg" id="(0.6,0.8484848484848485)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dwU4IKGUEeS7Yddlbj_DGQ" id="(0.9802955665024631,0.9464285714285714)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="__cPacJ21EeS2PZuUYuh_Bg" type="7000" source="_m4Rx4J20EeS2PZuUYuh_Bg" target="_CSvN0J2zEeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="__cPac521EeS2PZuUYuh_Bg" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__cPadJ21EeS2PZuUYuh_Bg"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="__cPadZ21EeS2PZuUYuh_Bg" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__cPadp21EeS2PZuUYuh_Bg" x="-16" y="45"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="__cPad521EeS2PZuUYuh_Bg" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__cPaeJ21EeS2PZuUYuh_Bg" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="__cPacZ21EeS2PZuUYuh_Bg"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#__cNlQJ21EeS2PZuUYuh_Bg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__cPacp21EeS2PZuUYuh_Bg" points="[9, -10, -482, 484]$[428, -430, -63, 64]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__cTE0J21EeS2PZuUYuh_Bg" id="(0.5340909090909091,0.04854368932038835)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__cTE0Z21EeS2PZuUYuh_Bg" id="(0.014460511679644048,0.8703703703703703)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_AhX2gJ22EeS2PZuUYuh_Bg" type="7000" source="_1_FY8J20EeS2PZuUYuh_Bg" target="_CSvN0J2zEeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_AhYdkJ22EeS2PZuUYuh_Bg" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_AhYdkZ22EeS2PZuUYuh_Bg"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_AhYdkp22EeS2PZuUYuh_Bg" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_AhYdk522EeS2PZuUYuh_Bg" x="-329" y="12"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_AhYdlJ22EeS2PZuUYuh_Bg" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_AhYdlZ22EeS2PZuUYuh_Bg" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_AhX2gZ22EeS2PZuUYuh_Bg"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_AhWoYJ22EeS2PZuUYuh_Bg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AhX2gp22EeS2PZuUYuh_Bg" points="[18, 0, -710, 467]$[739, 0, 11, 467]$[728, -455, 0, 12]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Si_8sKGXEeS7Yddlbj_DGQ" id="(0.875,0.85)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ahbg4J22EeS2PZuUYuh_Bg" id="(0.958128078817734,0.8571428571428571)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_A62tgJ22EeS2PZuUYuh_Bg" type="7000" source="_ZmIw8J21EeS2PZuUYuh_Bg" target="_CSvN0J2zEeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_A62tg522EeS2PZuUYuh_Bg" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_A62thJ22EeS2PZuUYuh_Bg"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_A63UkJ22EeS2PZuUYuh_Bg" type="7002">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IqFnwKQREeSTA8wNzETUGw" source="Stereotype_Annotation">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JzPBIKQREeSTA8wNzETUGw" key="StereotypeWithQualifiedNameList" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JzPoMKQREeSTA8wNzETUGw" key="StereotypeList" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JzPoMaQREeSTA8wNzETUGw" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JzPoMqQREeSTA8wNzETUGw" key="PropStereoDisplay" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JzPoM6QREeSTA8wNzETUGw" key="StereotypePropertyLocation" value="Compartment"/>
+        </eAnnotations>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_A63UkZ22EeS2PZuUYuh_Bg" x="168" y="26"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_A63Ukp22EeS2PZuUYuh_Bg" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_A63Uk522EeS2PZuUYuh_Bg" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_A62tgZ22EeS2PZuUYuh_Bg"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_A61fYJ22EeS2PZuUYuh_Bg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_A62tgp22EeS2PZuUYuh_Bg" points="[-12, -20, 193, 313]$[-167, -289, 38, 44]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kxjqkKi4EeStaaExlMgQAA" id="(0.9066666666666666,0.10344827586206896)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__9lEQKGXEeS7Yddlbj_DGQ" id="(0.9322660098522167,0.75)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_BVGZgJ22EeS2PZuUYuh_Bg" type="7000" source="_yXrNYJ20EeS2PZuUYuh_Bg" target="_CSvN0J2zEeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_BVGZg522EeS2PZuUYuh_Bg" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_BVGZhJ22EeS2PZuUYuh_Bg"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_BVGZhZ22EeS2PZuUYuh_Bg" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_BVGZhp22EeS2PZuUYuh_Bg" x="95" y="-96"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_BVGZh522EeS2PZuUYuh_Bg" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_BVGZiJ22EeS2PZuUYuh_Bg" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_BVGZgZ22EeS2PZuUYuh_Bg"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_BVEkUJ22EeS2PZuUYuh_Bg"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_BVGZgp22EeS2PZuUYuh_Bg" points="[4, -25, -76, 344]$[2, -371, -78, -2]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BVNuQJ22EeS2PZuUYuh_Bg" id="(0.19047619047619047,0.18518518518518517)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8NbPAL54EeSnbdGNH2yzDg" id="(0.8015184381778742,0.9821428571428571)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_ypOE0J2-EeSglNxPQ_vB-A" type="7000" source="_CSvN0J2zEeS2PZuUYuh_Bg" target="_HvWngJ2zEeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ypOE052-EeSglNxPQ_vB-A" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ypOE1J2-EeSglNxPQ_vB-A" y="18"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ypOE1Z2-EeSglNxPQ_vB-A" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ypOE1p2-EeSglNxPQ_vB-A" x="-69" y="-39"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ypOE152-EeSglNxPQ_vB-A" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_ypOE2J2-EeSglNxPQ_vB-A" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_ypOE0Z2-EeSglNxPQ_vB-A"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_ypMPoJ2-EeSglNxPQ_vB-A"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ypOE0p2-EeSglNxPQ_vB-A" points="[20, 4, -141, -29]$[162, 27, 1, -6]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ypQhEJ2-EeSglNxPQ_vB-A" id="(0.8333333333333334,0.5402298850574713)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ypQhEZ2-EeSglNxPQ_vB-A" id="(0.2,0.4)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_VBQc8KGZEeS7Yddlbj_DGQ" type="7000" source="_m4Rx4J20EeS2PZuUYuh_Bg" target="_VP0tcJ20EeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_VBQc86GZEeS7Yddlbj_DGQ" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VBQc9KGZEeS7Yddlbj_DGQ"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_VBQc9aGZEeS7Yddlbj_DGQ" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VBQc9qGZEeS7Yddlbj_DGQ" x="-70" y="-6"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_VBQc96GZEeS7Yddlbj_DGQ" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VBREAKGZEeS7Yddlbj_DGQ" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_VBQc8aGZEeS7Yddlbj_DGQ"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_VBOnwKGZEeS7Yddlbj_DGQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VBQc8qGZEeS7Yddlbj_DGQ" points="[11, 4, -289, -128]$[287, 126, -13, -6]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VBUHUKGZEeS7Yddlbj_DGQ" id="(0.7087378640776699,0.7692307692307693)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VBUHUaGZEeS7Yddlbj_DGQ" id="(0.03333333333333333,0.3020833333333333)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_hviJkKQOEeSTA8wNzETUGw" type="7000" source="_zIMrYJ20EeS2PZuUYuh_Bg" target="_VP0tcJ20EeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_hviJk6QOEeSTA8wNzETUGw" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hviJlKQOEeSTA8wNzETUGw"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_hviJlaQOEeSTA8wNzETUGw" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hviJlqQOEeSTA8wNzETUGw" x="-20" y="8"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_hviJl6QOEeSTA8wNzETUGw" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_hviJmKQOEeSTA8wNzETUGw" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_hviJkaQOEeSTA8wNzETUGw"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_hvgUYKQOEeSTA8wNzETUGw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hviJkqQOEeSTA8wNzETUGw" points="[-7, 16, 66, -117]$[-16, 139, 57, 6]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hvnCEKQOEeSTA8wNzETUGw" id="(0.22580645161290322,0.475)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_n2YzEKQOEeSTA8wNzETUGw" type="7000" source="_wF4J4J20EeS2PZuUYuh_Bg" target="_VP0tcJ20EeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_n2YzE6QOEeSTA8wNzETUGw" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_n2YzFKQOEeSTA8wNzETUGw"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_n2YzFaQOEeSTA8wNzETUGw" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_n2YzFqQOEeSTA8wNzETUGw" x="-90" y="-12"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_n2ZaIKQOEeSTA8wNzETUGw" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_n2ZaIaQOEeSTA8wNzETUGw" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_n2YzEaQOEeSTA8wNzETUGw"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_n2Xk8KQOEeSTA8wNzETUGw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_n2YzEqQOEeSTA8wNzETUGw" points="[-18, 5, 299, -71]$[-260, 75, 57, -1]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_n2b2YKQOEeSTA8wNzETUGw" id="(0.04,0.8333333333333334)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v_pToKi4EeStaaExlMgQAA" id="(0.9666666666666667,0.33962264150943394)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_qlonkKQOEeSTA8wNzETUGw" type="7000" source="_yXrNYJ20EeS2PZuUYuh_Bg" target="_VP0tcJ20EeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_qlonk6QOEeSTA8wNzETUGw" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qlpOoKQOEeSTA8wNzETUGw"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_qlpOoaQOEeSTA8wNzETUGw" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qlpOoqQOEeSTA8wNzETUGw" x="51" y="-8"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_qlpOo6QOEeSTA8wNzETUGw" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_qlpOpKQOEeSTA8wNzETUGw" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_qlonkaQOEeSTA8wNzETUGw"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_qlnZcKQOEeSTA8wNzETUGw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qlonkqQOEeSTA8wNzETUGw" points="[-18, -6, 162, 49]$[-120, -37, 60, 18]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qlrD0KQOEeSTA8wNzETUGw" id="(0.225,0.65)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_-RPg4L54EeSnbdGNH2yzDg" id="(0.8833333333333333,0.9292929292929293)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_zgf0UKQPEeSTA8wNzETUGw" type="7000" source="_m4Rx4J20EeS2PZuUYuh_Bg" target="_VP0tcJ20EeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_zgf0U6QPEeSTA8wNzETUGw" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_zggbYKQPEeSTA8wNzETUGw"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_zggbYaQPEeSTA8wNzETUGw" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_zggbYqQPEeSTA8wNzETUGw" x="-17" y="-7"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_zggbY6QPEeSTA8wNzETUGw" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_zggbZKQPEeSTA8wNzETUGw" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_zgf0UaQPEeSTA8wNzETUGw"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_zgd_IKQPEeSTA8wNzETUGw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zgf0UqQPEeSTA8wNzETUGw" points="[11, 5, -286, -126]$[287, 127, -10, -4]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_c1KZ8KQREeSTA8wNzETUGw" id="(0.9320388349514563,0.5153846153846153)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_zgmiAKQPEeSTA8wNzETUGw" id="(0.041666666666666664,0.0707070707070707)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="__gvoMKQREeSTA8wNzETUGw" type="7000" source="_VP0tcJ20EeS2PZuUYuh_Bg" target="_m4Rx4J20EeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="__gvoM6QREeSTA8wNzETUGw" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__gwPQKQREeSTA8wNzETUGw"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="__gwPQaQREeSTA8wNzETUGw" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__gwPQqQREeSTA8wNzETUGw" x="-21" y="-5"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="__gwPQ6QREeSTA8wNzETUGw" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__gwPRKQREeSTA8wNzETUGw" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="__gvoMaQREeSTA8wNzETUGw"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#__guaEKQREeSTA8wNzETUGw"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__gvoMqQREeSTA8wNzETUGw" points="[-57, -5, 381, 39]$[-405, -34, 33, 10]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IA65gKQSEeSTA8wNzETUGw" id="(0.05,0.494949494949495)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QVdz8L58EeSnbdGNH2yzDg" id="(0.9902912621359223,0.8846153846153846)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_cCEYoKi9EeStaaExlMgQAA" type="7000" source="_uY0LIJ20EeS2PZuUYuh_Bg" target="_m4Rx4J20EeS2PZuUYuh_Bg">
+      <children xmi:type="notation:DecorationNode" xmi:id="_cCEYo6i9EeStaaExlMgQAA" type="7001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cCEYpKi9EeStaaExlMgQAA"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_cCE_sKi9EeStaaExlMgQAA" type="7002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cCE_sai9EeStaaExlMgQAA" x="-92" y="82"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_cCE_sqi9EeStaaExlMgQAA" type="7003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cCE_s6i9EeStaaExlMgQAA" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_cCEYoai9EeStaaExlMgQAA"/>
+      <element xmi:type="uml:Transition" href="DVD%20Player.uml#_cCBVUKi9EeStaaExlMgQAA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cCEYoqi9EeStaaExlMgQAA" points="[-11, -12, 0, 343]$[-11, -350, 0, 5]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_cnKCsKi9EeStaaExlMgQAA" id="(0.1,0.030303030303030304)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dBVdQKi9EeStaaExlMgQAA" id="(0.20454545454545456,0.941747572815534)"/>
+    </edges>
+  </notation:Diagram>
+  <css:ModelStyleSheets xmi:id="_xfwY0J2yEeS2PZuUYuh_Bg"/>
+</xmi:XMI>

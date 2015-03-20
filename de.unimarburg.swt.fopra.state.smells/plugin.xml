@@ -2,5 +2,10 @@
 <plugin>
 <extension point="org.eclipse.emf.refactor.smells">
 <modelsmell id="de.pum.fopra.usm" modelsmell_description="The state machine has no name" modelsmell_finderclass="org.eclipse.emf.refactor.modelsmell.UnnamedStateMachine" modelsmell_metamodel="http://www.eclipse.org/uml2/5.0.0/UML" modelsmell_name="Unnamed State Machine"/>
+<modelsmell id="Unnamed State" modelsmell_description="Finds all unnamed States" modelsmell_finderclass="org.eclipse.emf.refactor.modelsmell.UnnamedStates" modelsmell_metamodel="http://www.eclipse.org/uml2/5.0.0/UML" modelsmell_name="Unnamed State"/>
+<modelsmell id="Isolated States" modelsmell_description="Find all unreachable states" modelsmell_finderclass="org.eclipse.emf.refactor.modelsmell.IsolatedStates" modelsmell_metamodel="http://www.eclipse.org/uml2/5.0.0/UML" modelsmell_name="Isolated States"/>
+<modelsmell id="SameIncomingActivity" modelsmell_description="All incoming transitions into a state have the same activity" modelsmell_finderclass="org.eclipse.emf.refactor.modelsmell.SameIncomingActivity" modelsmell_metamodel="http://www.eclipse.org/uml2/5.0.0/UML" modelsmell_name="SameIncomingActivity"/>
+<modelsmell id="SameOutgoingActivity" modelsmell_description="All transitions from a state have the same Activity" modelsmell_finderclass="org.eclipse.emf.refactor.modelsmell.SameOutgoingActivity" modelsmell_metamodel="http://www.eclipse.org/uml2/5.0.0/UML" modelsmell_name="SameOutgoingActivity"/>
+<modelsmell id="Complex State Outgoing" modelsmell_description="All states in an complex state have identical outgoing transitions" modelsmell_finderclass="org.eclipse.emf.refactor.modelsmell.ComplexStateOutgoing" modelsmell_metamodel="http://www.eclipse.org/uml2/5.0.0/UML" modelsmell_name="Complex State Outgoing"/>
 </extension>
 </plugin>

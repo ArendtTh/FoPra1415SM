@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_R47VAJ2yEeS2PZuUYuh_Bg" name="model">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_R478EJ2yEeS2PZuUYuh_Bg" name="StateMachine1">
+    <ownedReception xmi:type="uml:Reception" xmi:id="_XWFAkJ26EeS2PZuUYuh_Bg" signal="_XD0y8J26EeS2PZuUYuh_Bg"/>
+    <ownedReception xmi:type="uml:Reception" xmi:id="_BfSWoJ2-EeSglNxPQ_vB-A" name="ausgesteckt"/>
+    <region xmi:type="uml:Region" xmi:id="_R48jIJ2yEeS2PZuUYuh_Bg" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_EMWa0J2zEeS2PZuUYuh_Bg" visibility="public" source="_MbN84J23EeS2PZuUYuh_Bg" target="_CSumwJ2zEeS2PZuUYuh_Bg">
+        <trigger xmi:type="uml:Trigger" xmi:id="_xZ7HgJ27EeSglNxPQ_vB-A" name="einstecken" event="_3Xn1AJ27EeSglNxPQ_vB-A"/>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_22wdQJ2zEeS2PZuUYuh_Bg" source="_CSumwJ2zEeS2PZuUYuh_Bg" target="_djH10J2zEeS2PZuUYuh_Bg">
+        <effect xmi:type="uml:Activity" xmi:id="_FyrOYKGjEeS7Yddlbj_DGQ" name="LED ausschalten"/>
+        <trigger xmi:type="uml:Trigger" xmi:id="_5krogKGXEeS7Yddlbj_DGQ" event="_xbWOEKGQEeS7Yddlbj_DGQ"/>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_8dWncJ21EeS2PZuUYuh_Bg" source="_VPzfUJ20EeS2PZuUYuh_Bg" target="_CSumwJ2zEeS2PZuUYuh_Bg">
+        <effect xmi:type="uml:Activity" xmi:id="_fWkaAKGQEeS7Yddlbj_DGQ" name="ausschalten"/>
+        <trigger xmi:type="uml:Trigger" xmi:id="_xo-aYKGQEeS7Yddlbj_DGQ" name="Power gedrueckt" event="_xbWOEKGQEeS7Yddlbj_DGQ"/>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_9dq08J21EeS2PZuUYuh_Bg" source="_wF3i0J20EeS2PZuUYuh_Bg" target="_CSumwJ2zEeS2PZuUYuh_Bg">
+        <effect xmi:type="uml:Activity" xmi:id="_ZlvmsKGXEeS7Yddlbj_DGQ" name="ausschalten"/>
+        <trigger xmi:type="uml:Trigger" xmi:id="_anPK0KGVEeS7Yddlbj_DGQ" event="_xbWOEKGQEeS7Yddlbj_DGQ"/>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_90nVUJ21EeS2PZuUYuh_Bg" source="_zIMEUJ20EeS2PZuUYuh_Bg" target="_CSumwJ2zEeS2PZuUYuh_Bg">
+        <effect xmi:type="uml:Activity" xmi:id="_1UYQ8KGXEeS7Yddlbj_DGQ" name="ausschalten"/>
+        <trigger xmi:type="uml:Trigger" xmi:id="_0CMQUKGXEeS7Yddlbj_DGQ" event="_xbWOEKGQEeS7Yddlbj_DGQ"/>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_-6xsIJ21EeS2PZuUYuh_Bg" source="_uYyV8J20EeS2PZuUYuh_Bg" target="_CSumwJ2zEeS2PZuUYuh_Bg">
+        <effect xmi:type="uml:Activity" xmi:id="_fNDC4KGWEeS7Yddlbj_DGQ" name="ausschalten"/>
+        <trigger xmi:type="uml:Trigger" xmi:id="_dUnhoKGWEeS7Yddlbj_DGQ" event="_xbWOEKGQEeS7Yddlbj_DGQ"/>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="__cNlQJ21EeS2PZuUYuh_Bg" source="_m4RK0J20EeS2PZuUYuh_Bg" target="_CSumwJ2zEeS2PZuUYuh_Bg">
+        <effect xmi:type="uml:Activity" xmi:id="_Gg65oKGREeS7Yddlbj_DGQ" name="ausschalten"/>
+        <trigger xmi:type="uml:Trigger" xmi:id="__RbNEKGQEeS7Yddlbj_DGQ" event="_xbWOEKGQEeS7Yddlbj_DGQ"/>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_AhWoYJ22EeS2PZuUYuh_Bg" visibility="private" source="_1_EK0J20EeS2PZuUYuh_Bg" target="_CSumwJ2zEeS2PZuUYuh_Bg">
+        <effect xmi:type="uml:Activity" xmi:id="_RDIP8KGYEeS7Yddlbj_DGQ" name="ausschalten"/>
+        <trigger xmi:type="uml:Trigger" xmi:id="_NLaUUKGUEeS7Yddlbj_DGQ" event="_xbWOEKGQEeS7Yddlbj_DGQ"/>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_A61fYJ22EeS2PZuUYuh_Bg" source="_ZmHi0J21EeS2PZuUYuh_Bg" target="_CSumwJ2zEeS2PZuUYuh_Bg">
+        <effect xmi:type="uml:Activity" xmi:id="_UOp4IKGVEeS7Yddlbj_DGQ" name="ausschalten"/>
+        <trigger xmi:type="uml:Trigger" xmi:id="_SCMAkKGVEeS7Yddlbj_DGQ" event="_xbWOEKGQEeS7Yddlbj_DGQ"/>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_BVEkUJ22EeS2PZuUYuh_Bg" source="_yXqmUJ20EeS2PZuUYuh_Bg" target="_CSumwJ2zEeS2PZuUYuh_Bg">
+        <effect xmi:type="uml:Activity" xmi:id="_fSCbIKGXEeS7Yddlbj_DGQ" name="ausschalten"/>
+        <trigger xmi:type="uml:Trigger" xmi:id="_dbjaoKGXEeS7Yddlbj_DGQ" event="_xbWOEKGQEeS7Yddlbj_DGQ"/>
+      </transition>
+      <transition xmi:type="uml:Transition" xmi:id="_ypMPoJ2-EeSglNxPQ_vB-A" source="_CSumwJ2zEeS2PZuUYuh_Bg" target="_HvULQJ2zEeS2PZuUYuh_Bg">
+        <effect xmi:type="uml:Activity" xmi:id="_1D-QAJ2-EeSglNxPQ_vB-A" name="LED ausschalten"/>
+        <trigger xmi:type="uml:Trigger" xmi:id="_5FasMJ2-EeSglNxPQ_vB-A" name="ausgesteckt" event="_47QqoJ2-EeSglNxPQ_vB-A"/>
+      </transition>
+      <subvertex xmi:type="uml:State" xmi:id="_CSumwJ2zEeS2PZuUYuh_Bg" visibility="public">
+        <entry xmi:type="uml:Activity" xmi:id="_JalVkKi8EeStaaExlMgQAA" name="LED einschalten"/>
+      </subvertex>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_HvULQJ2zEeS2PZuUYuh_Bg" name="Aus"/>
+      <subvertex xmi:type="uml:State" xmi:id="_djH10J2zEeS2PZuUYuh_Bg" name="An">
+        <region xmi:type="uml:Region" xmi:id="_UB1QUp20EeS2PZuUYuh_Bg" name="Region1">
+          <transition xmi:type="uml:Transition" xmi:id="_cIMTcJ20EeS2PZuUYuh_Bg" visibility="public" source="_UB13YJ20EeS2PZuUYuh_Bg" target="_VPzfUJ20EeS2PZuUYuh_Bg">
+            <effect xmi:type="uml:Activity" xmi:id="_Lh3cQKGXEeS7Yddlbj_DGQ" name="DVD lesen"/>
+            <trigger xmi:type="uml:Trigger" xmi:id="_hgiRIJ20EeS2PZuUYuh_Bg" name="DVD einlegen" event="_IVm7oKGXEeS7Yddlbj_DGQ"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_LQF4cJ21EeS2PZuUYuh_Bg" source="_m4RK0J20EeS2PZuUYuh_Bg">
+            <trigger xmi:type="uml:Trigger" xmi:id="_KUKoIKGZEeS7Yddlbj_DGQ" event="_J9KdYKGZEeS7Yddlbj_DGQ"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_MqahYJ21EeS2PZuUYuh_Bg" source="_yXqmUJ20EeS2PZuUYuh_Bg" target="_ZmHi0J21EeS2PZuUYuh_Bg">
+            <effect xmi:type="uml:Activity" xmi:id="_FsWrUKGgEeS7Yddlbj_DGQ" name="bestaetigen"/>
+            <trigger xmi:type="uml:Trigger" xmi:id="_LZnCsKGYEeS7Yddlbj_DGQ" event="_XyVk0KGWEeS7Yddlbj_DGQ"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_PIVVUJ21EeS2PZuUYuh_Bg" source="_m4RK0J20EeS2PZuUYuh_Bg" target="_1_EK0J20EeS2PZuUYuh_Bg">
+            <trigger xmi:type="uml:Trigger" xmi:id="__7P-cKGWEeS7Yddlbj_DGQ" event="__q2yAKGWEeS7Yddlbj_DGQ"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_QSNHcJ21EeS2PZuUYuh_Bg" source="_wF3i0J20EeS2PZuUYuh_Bg" target="_ZmHi0J21EeS2PZuUYuh_Bg">
+            <effect xmi:type="uml:Activity" xmi:id="_CoB-sKGgEeS7Yddlbj_DGQ" name="bestaetigen"/>
+            <trigger xmi:type="uml:Trigger" xmi:id="_OwiiQKGYEeS7Yddlbj_DGQ" event="_XyVk0KGWEeS7Yddlbj_DGQ"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_Qzw8YJ21EeS2PZuUYuh_Bg" source="_VPzfUJ20EeS2PZuUYuh_Bg" target="_wF3i0J20EeS2PZuUYuh_Bg">
+            <trigger xmi:type="uml:Trigger" xmi:id="_l6eVcKQNEeSTA8wNzETUGw" event="_lq0v4KQNEeSTA8wNzETUGw"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_RTas0J21EeS2PZuUYuh_Bg" source="_VPzfUJ20EeS2PZuUYuh_Bg" target="_zIMEUJ20EeS2PZuUYuh_Bg">
+            <trigger xmi:type="uml:Trigger" xmi:id="_cjL18KQNEeSTA8wNzETUGw" event="_cP_0MKQNEeSTA8wNzETUGw"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_ULOAYJ21EeS2PZuUYuh_Bg" source="_m4RK0J20EeS2PZuUYuh_Bg" target="_uYyV8J20EeS2PZuUYuh_Bg">
+            <trigger xmi:type="uml:Trigger" xmi:id="_4ONaQKGWEeS7Yddlbj_DGQ" event="_398JoKGWEeS7Yddlbj_DGQ"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_dkuGYJ21EeS2PZuUYuh_Bg" source="_zIMEUJ20EeS2PZuUYuh_Bg" target="_ZmHi0J21EeS2PZuUYuh_Bg">
+            <effect xmi:type="uml:Activity" xmi:id="_ErttsKGgEeS7Yddlbj_DGQ" name="bestaetigen"/>
+            <trigger xmi:type="uml:Trigger" xmi:id="_Mlm7wKGYEeS7Yddlbj_DGQ" event="_XyVk0KGWEeS7Yddlbj_DGQ"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_igVr0J21EeS2PZuUYuh_Bg" source="_VPzfUJ20EeS2PZuUYuh_Bg" target="_yXqmUJ20EeS2PZuUYuh_Bg">
+            <trigger xmi:type="uml:Trigger" xmi:id="_qb-xwKQNEeSTA8wNzETUGw" event="_qEllcKQNEeSTA8wNzETUGw"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_lwxh0J21EeS2PZuUYuh_Bg" source="_ZmHi0J21EeS2PZuUYuh_Bg" target="_m4RK0J20EeS2PZuUYuh_Bg">
+            <effect xmi:type="uml:Activity" xmi:id="_vJlhoKGiEeS7Yddlbj_DGQ" name="Abspielen starten"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_1gjNYJ21EeS2PZuUYuh_Bg" source="_1_EK0J20EeS2PZuUYuh_Bg" target="_ZmHi0J21EeS2PZuUYuh_Bg">
+            <effect xmi:type="uml:Activity" xmi:id="_L1z84KGgEeS7Yddlbj_DGQ" name="bestaetigen"/>
+            <trigger xmi:type="uml:Trigger" xmi:id="_ydCs4KGWEeS7Yddlbj_DGQ" event="_XyVk0KGWEeS7Yddlbj_DGQ"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_VBOnwKGZEeS7Yddlbj_DGQ" source="_m4RK0J20EeS2PZuUYuh_Bg" target="_VPzfUJ20EeS2PZuUYuh_Bg">
+            <trigger xmi:type="uml:Trigger" xmi:id="_WnMgAKGZEeS7Yddlbj_DGQ" event="_J9KdYKGZEeS7Yddlbj_DGQ"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_hvgUYKQOEeSTA8wNzETUGw" source="_zIMEUJ20EeS2PZuUYuh_Bg" target="_VPzfUJ20EeS2PZuUYuh_Bg">
+            <trigger xmi:type="uml:Trigger" xmi:id="_nP5a0KQOEeSTA8wNzETUGw" event="_m8vOQKQOEeSTA8wNzETUGw"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_n2Xk8KQOEeSTA8wNzETUGw" source="_wF3i0J20EeS2PZuUYuh_Bg" target="_VPzfUJ20EeS2PZuUYuh_Bg">
+            <trigger xmi:type="uml:Trigger" xmi:id="_pd7YoKQOEeSTA8wNzETUGw" event="_m8vOQKQOEeSTA8wNzETUGw"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_qlnZcKQOEeSTA8wNzETUGw" source="_yXqmUJ20EeS2PZuUYuh_Bg" target="_VPzfUJ20EeS2PZuUYuh_Bg">
+            <trigger xmi:type="uml:Trigger" xmi:id="_rkomcKQOEeSTA8wNzETUGw" event="_m8vOQKQOEeSTA8wNzETUGw"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_zgd_IKQPEeSTA8wNzETUGw" source="_m4RK0J20EeS2PZuUYuh_Bg" target="_VPzfUJ20EeS2PZuUYuh_Bg">
+            <trigger xmi:type="uml:Trigger" xmi:id="_3MTXsKQPEeSTA8wNzETUGw" event="_29DawKQPEeSTA8wNzETUGw"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="__guaEKQREeSTA8wNzETUGw" source="_VPzfUJ20EeS2PZuUYuh_Bg" target="_m4RK0J20EeS2PZuUYuh_Bg">
+            <effect xmi:type="uml:Activity" xmi:id="_Ck6j0KQSEeSTA8wNzETUGw" name="Abspielen starten"/>
+            <trigger xmi:type="uml:Trigger" xmi:id="_BEbogKQSEeSTA8wNzETUGw" event="_5KDIsKQNEeSTA8wNzETUGw"/>
+          </transition>
+          <transition xmi:type="uml:Transition" xmi:id="_cCBVUKi9EeStaaExlMgQAA" source="_uYyV8J20EeS2PZuUYuh_Bg" target="_m4RK0J20EeS2PZuUYuh_Bg">
+            <effect xmi:type="uml:Activity" xmi:id="_lMbPYKi9EeStaaExlMgQAA" name="Abspielen starten"/>
+            <trigger xmi:type="uml:Trigger" xmi:id="_hqINUKi9EeStaaExlMgQAA" event="_398JoKGWEeS7Yddlbj_DGQ"/>
+          </transition>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_UB13YJ20EeS2PZuUYuh_Bg"/>
+          <subvertex xmi:type="uml:State" xmi:id="_VPzfUJ20EeS2PZuUYuh_Bg" name="Titelmenue">
+            <doActivity xmi:type="uml:Activity" xmi:id="_mc6Q8KGYEeS7Yddlbj_DGQ" name="Clip anzeigen"/>
+          </subvertex>
+          <subvertex xmi:type="uml:State" xmi:id="_m4RK0J20EeS2PZuUYuh_Bg" name="Abspielen" visibility="public">
+            <exit xmi:type="uml:Activity" xmi:id="_z6MTEKi3EeStaaExlMgQAA" name="Abspielen stoppen"/>
+          </subvertex>
+          <subvertex xmi:type="uml:State" xmi:id="_uYyV8J20EeS2PZuUYuh_Bg" name="Pausiert"/>
+          <subvertex xmi:type="uml:State" xmi:id="_wF3i0J20EeS2PZuUYuh_Bg" name="Sprachauswahl"/>
+          <subvertex xmi:type="uml:State" xmi:id="_yXqmUJ20EeS2PZuUYuh_Bg" name="Extras"/>
+          <subvertex xmi:type="uml:State" xmi:id="_zIMEUJ20EeS2PZuUYuh_Bg" name="Szenenauswahl"/>
+          <subvertex xmi:type="uml:State" xmi:id="_1_EK0J20EeS2PZuUYuh_Bg" name="Menue">
+            <doActivity xmi:type="uml:Activity" xmi:id="_TKF4QKQQEeSTA8wNzETUGw" name="Menue anzeigen"/>
+          </subvertex>
+          <subvertex xmi:type="uml:State" xmi:id="_ZmHi0J21EeS2PZuUYuh_Bg" name="Bestaetigt"/>
+        </region>
+      </subvertex>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_MbN84J23EeS2PZuUYuh_Bg"/>
+      <subvertex xmi:type="uml:State" xmi:id="_kb13cKGgEeS7Yddlbj_DGQ" name="A"/>
+    </region>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Signal" xmi:id="_XD0y8J26EeS2PZuUYuh_Bg" name="eingesteckt"/>
+  <packagedElement xmi:type="uml:SignalEvent" xmi:id="_rJx_IJ27EeSglNxPQ_vB-A" name="ausgesteckt"/>
+  <packagedElement xmi:type="uml:SignalEvent" xmi:id="_3Xn1AJ27EeSglNxPQ_vB-A" name="einstecken" signal="_XD0y8J26EeS2PZuUYuh_Bg"/>
+  <packagedElement xmi:type="uml:Signal" xmi:id="_liVjkJ29EeSglNxPQ_vB-A" name="ausgesteckt"/>
+  <packagedElement xmi:type="uml:SignalEvent" xmi:id="_47QqoJ2-EeSglNxPQ_vB-A" name="ausgesteckt"/>
+  <packagedElement xmi:type="uml:SignalEvent" xmi:id="_xbWOEKGQEeS7Yddlbj_DGQ" name="Power gedrueckt"/>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_WTrq8KGVEeS7Yddlbj_DGQ" name="ausschalten"/>
+  <packagedElement xmi:type="uml:SignalEvent" xmi:id="_XyVk0KGWEeS7Yddlbj_DGQ" name="OK gedrueckt"/>
+  <packagedElement xmi:type="uml:SignalEvent" xmi:id="_398JoKGWEeS7Yddlbj_DGQ" name="Pause gedrueckt"/>
+  <packagedElement xmi:type="uml:SignalEvent" xmi:id="__q2yAKGWEeS7Yddlbj_DGQ" name="Menuetaste gedrueckt"/>
+  <packagedElement xmi:type="uml:SignalEvent" xmi:id="_IVm7oKGXEeS7Yddlbj_DGQ" name="DVD eingelegt"/>
+  <packagedElement xmi:type="uml:SignalEvent" xmi:id="_J9KdYKGZEeS7Yddlbj_DGQ" name="Film zuende"/>
+  <packagedElement xmi:type="uml:SignalEvent" xmi:id="_cP_0MKQNEeSTA8wNzETUGw" name="Szenenauswahl ausgewaehlt"/>
+  <packagedElement xmi:type="uml:SignalEvent" xmi:id="_lq0v4KQNEeSTA8wNzETUGw" name="Sprachauswahl ausgewaehlt"/>
+  <packagedElement xmi:type="uml:SignalEvent" xmi:id="_qEllcKQNEeSTA8wNzETUGw" name="Extras ausgewaehlt"/>
+  <packagedElement xmi:type="uml:SignalEvent" xmi:id="_5KDIsKQNEeSTA8wNzETUGw" name="Film starten ausgewaehlt"/>
+  <packagedElement xmi:type="uml:SignalEvent" xmi:id="_m8vOQKQOEeSTA8wNzETUGw" name="zurueck"/>
+  <packagedElement xmi:type="uml:SignalEvent" xmi:id="_ieN_EKQPEeSTA8wNzETUGw" name="Titelmenue aufrufen"/>
+  <packagedElement xmi:type="uml:SignalEvent" xmi:id="_29DawKQPEeSTA8wNzETUGw" name="Titelmenue aufrufen"/>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_NOr-AJ2zEeS2PZuUYuh_Bg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NO3kMJ2zEeS2PZuUYuh_Bg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_sYse0YZLEeKyw49uR6nx3g"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
