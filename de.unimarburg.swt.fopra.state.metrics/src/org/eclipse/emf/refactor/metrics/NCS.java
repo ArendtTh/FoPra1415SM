@@ -27,9 +27,8 @@ public final class NCS implements IMetricCalculator {
 		for(Region region : statemachine.getRegions()) {
 			for(Vertex vertex : region.getSubvertices()) {
 				if(vertex instanceof State && ((State) vertex).isComposite()) {
-					ret++;
 					for(Vertex subVertex : NSS.getVerticesFromComplexState((State) vertex)) {
-						if(subVertex instanceof State && ((State) subVertex).isSimple()) {
+						if(subVertex instanceof State && ((State) subVertex).isComposite()) {
 							ret++;
 						}
 					}

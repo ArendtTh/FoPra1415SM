@@ -97,14 +97,8 @@ public final class ComplexStateOutgoing implements IModelSmellFinder {
 				for(Transition transition : vertex.getOutgoings()) {
 					
 					if(!transitionNames.contains(transition.getName()))
-						return false;
-					
-					//if(!outgoingTransitions.contains(transition) )
-					//	return false;
-					
+						return false;				
 				}
-				//else if(! vertex.getOutgoings().equals(outgoingTransitions))
-				//	return false;
 			}
 		}
 		return true;

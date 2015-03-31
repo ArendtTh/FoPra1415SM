@@ -1,6 +1,5 @@
 package org.eclipse.emf.refactor.modelsmell;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 
 import org.eclipse.emf.common.util.EList;
@@ -32,22 +31,14 @@ public final class IsolatedStates implements IModelSmellFinder {
 					for(Vertex vertex : region.getSubvertices()) {
 						//vertex is a simple state
 						if(vertex instanceof State && ((State) vertex).isSimple() && 
-								isIsolated(vertex)) {
-							
+								isIsolated(vertex)) {				
 								
 							LinkedList<EObject> result = new LinkedList<EObject>();
 							result.add(vertex);
 							results.add(result);
 						}
 						//vertex is a composite state
-						else if(vertex instanceof State && ((State) vertex).isComposite()) {
-							//check the composite state
-							if( isIsolated(vertex)) {
-									LinkedList<EObject> result = new LinkedList<EObject>();
-									result.add(vertex);
-									results.add(result);
-							}
-							//check the substates of the composite state
+						else if(vertex instanceof State && ((State) vertex).isComposite()) {							
 							for(Vertex subVertex : UnnamedStates.getVerticesFromComplexState((State) vertex)) {
 								if(subVertex instanceof State && isIsolated(subVertex)) {							
 									LinkedList<EObject> result = new LinkedList<EObject>();

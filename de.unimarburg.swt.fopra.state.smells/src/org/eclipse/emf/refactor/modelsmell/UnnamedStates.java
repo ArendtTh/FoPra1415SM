@@ -27,26 +27,15 @@ public final class UnnamedStates implements IModelSmellFinder {
 
 				for(Region region : ((StateMachine) namedElement).getRegions()) {
 					for(Vertex vertex : region.getSubvertices()) {
-						if(vertex instanceof State && ((State) vertex).isSimple() && (
-								((State) vertex).getName() == null  ||
-								((State) vertex).getName().equals(""))) {
-							
-								
+						if(vertex instanceof State && ((State) vertex).isSimple() && isUnnamed((State) vertex)) {		
 							LinkedList<EObject> result = new LinkedList<EObject>();
 							result.add(vertex);
 							results.add(result);
 						}
 						else if(vertex instanceof State && ((State) vertex).isComposite()) {
-							if(((State) vertex).getName() == null ||
-								((State) vertex).getName().equals("")) {
-									LinkedList<EObject> result = new LinkedList<EObject>();
-									result.add(vertex);
-									results.add(result);
-							}
+						
 							for(Vertex subVertex : getVerticesFromComplexState((State) vertex)) {
-								if(subVertex instanceof State && ((State) subVertex).isSimple() && (
-										((State) subVertex).getName() == null ||
-										((State) subVertex).getName().equals(""))) {
+								if(subVertex instanceof State && isUnnamed((State) subVertex)) {
 									LinkedList<EObject> result = new LinkedList<EObject>();
 									result.add(subVertex);
 									results.add(result);
@@ -54,8 +43,7 @@ public final class UnnamedStates implements IModelSmellFinder {
 							}
 						}
 					}
-				}
-				
+				}				
 			}
 		}
 		
@@ -63,12 +51,16 @@ public final class UnnamedStates implements IModelSmellFinder {
 	}
 	
 	
+public boolean isUnnamed(State state) {
+	return (state.getName() == null || state.getName().equals(""));
+}
 		
 	
 
 public static ArrayList<Vertex> getVerticesFromComplexState(State state) {
 	if(state.isComposite()) {
 		ArrayList<Vertex> vertices = new ArrayList<Vertex>();
+		vertices.add(state);
 		for(Region region : state.getRegions()) {
 			for(Vertex vertex : region.getSubvertices()) {
 				if(vertex instanceof State)

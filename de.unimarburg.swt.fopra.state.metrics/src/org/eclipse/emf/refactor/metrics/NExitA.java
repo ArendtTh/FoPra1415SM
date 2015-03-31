@@ -1,6 +1,5 @@
 package org.eclipse.emf.refactor.metrics;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.eclipse.emf.ecore.EObject;
@@ -29,9 +28,10 @@ public final class NExitA implements IMetricCalculator {
 				if(vertex instanceof State && ((State) vertex).isSimple() && hasExitActivity((State) vertex)) {
 					ret++;
 				}
-				else if(vertex instanceof State && ((State) vertex).isComposite()) {				
+				else if(vertex instanceof State && ((State) vertex).isComposite()) {		
+				
 					for(Vertex subVertex : NSS.getVerticesFromComplexState((State) vertex)) {
-						if(subVertex instanceof State && ((State) subVertex).isSimple() && hasExitActivity((State) subVertex)) {
+						if(subVertex instanceof State && hasExitActivity((State) subVertex)) {
 							ret++;
 						}
 					}

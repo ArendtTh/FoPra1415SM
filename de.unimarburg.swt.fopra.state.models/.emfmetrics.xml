@@ -7,6 +7,9 @@
 <metricId>McCabe</metricId>
 </metric>
 <metric>
+<metricId>NA</metricId>
+</metric>
+<metric>
 <metricId>NCS</metricId>
 </metric>
 <metric>
@@ -26,6 +29,9 @@
 </metric>
 <metric>
 <metricId>de.pum.fopra.nfs2</metricId>
+</metric>
+<metric>
+<metricId>NOA</metricId>
 </metric>
 <metric>
 <metricId>NSS</metricId>

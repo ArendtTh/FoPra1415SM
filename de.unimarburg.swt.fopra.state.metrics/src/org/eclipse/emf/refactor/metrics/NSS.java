@@ -17,9 +17,7 @@ public final class NSS implements IMetricCalculator {
 	public void setContext(List<EObject> context) {
 		this.context=context;
 	}	
-		
-	// noch problem bei simple states innerhalb von composite evtl rekurison nötig?
-	
+			
 	@Override
 	public double calculate() {	
 		StateMachine statemachine = (StateMachine) context.get(0);
@@ -45,6 +43,7 @@ public final class NSS implements IMetricCalculator {
 	public static ArrayList<Vertex> getVerticesFromComplexState(State state) {
 		if(state.isComposite()) {
 			ArrayList<Vertex> vertices = new ArrayList<Vertex>();
+			vertices.add(state);
 			for(Region region : state.getRegions()) {
 				for(Vertex vertex : region.getSubvertices()) {
 					if(vertex instanceof State)

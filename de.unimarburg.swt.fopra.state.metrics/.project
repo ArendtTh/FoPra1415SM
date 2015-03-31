@@ -3,6 +3,7 @@
 	<name>de.unimarburg.swt.fopra.state.metrics</name>
 	<comment></comment>
 	<projects>
+		<project>de.unimarburg.swt.fopra.state.models</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

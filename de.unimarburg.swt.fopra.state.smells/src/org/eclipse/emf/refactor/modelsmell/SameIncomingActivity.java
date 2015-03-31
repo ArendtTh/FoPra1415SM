@@ -1,6 +1,5 @@
 package org.eclipse.emf.refactor.modelsmell;
 
-import java.util.ArrayList;
 import java.util.LinkedList;
 
 import org.eclipse.emf.common.util.EList;
@@ -33,21 +32,13 @@ LinkedList<LinkedList<EObject>> results = new LinkedList<LinkedList<EObject>>();
 						//vertex is a simple state
 						if(vertex instanceof State && ((State) vertex).isSimple() && 
 								hasSameIncomingAcitivty(vertex)) {
-							
-								
 							LinkedList<EObject> result = new LinkedList<EObject>();
 							result.add(vertex);
 							results.add(result);
 						}
 						//vertex is a composite state
 						else if(vertex instanceof State && ((State) vertex).isComposite()) {
-							//check the composite state
-							if( hasSameIncomingAcitivty(vertex)) {
-									LinkedList<EObject> result = new LinkedList<EObject>();
-									result.add(vertex);
-									results.add(result);
-							}
-							//check the substates of the composite state
+							
 							for(Vertex subVertex : UnnamedStates.getVerticesFromComplexState((State) vertex)) {
 								if(subVertex instanceof State && hasSameIncomingAcitivty(subVertex)) {							
 									LinkedList<EObject> result = new LinkedList<EObject>();
@@ -78,16 +69,7 @@ LinkedList<LinkedList<EObject>> results = new LinkedList<LinkedList<EObject>>();
 
 		//check if all transition have activities with equal attributes
 		Behavior activity = first.getEffect();
-		
-		/*for(Transition transition : incomings) {
-			if(transition.getEffect() == null               	||
-					transition.getEffect().allAttributes() == null	|| 
-					!(transition.getEffect().allAttributes().equals(activity.allAttributes())) ) {
 				
-				return false;
-			}
-		}*/
-		
 		//noch möglichkeit suchen um aktivitäten wirklich zu vergleichen nicht nur am namen
 		for(Transition transition : incomings) {
 			if(transition.getEffect() == null               	||
