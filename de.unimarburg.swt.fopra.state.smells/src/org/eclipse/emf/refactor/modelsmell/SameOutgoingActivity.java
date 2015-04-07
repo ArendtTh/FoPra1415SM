@@ -14,33 +14,33 @@ import org.eclipse.uml2.uml.StateMachine;
 import org.eclipse.uml2.uml.Transition;
 import org.eclipse.uml2.uml.Vertex;
 
-
 public final class SameOutgoingActivity implements IModelSmellFinder {
 
 	@Override
 	public LinkedList<LinkedList<EObject>> findSmell(EObject root) {
-LinkedList<LinkedList<EObject>> results = new LinkedList<LinkedList<EObject>>();
-		
+		LinkedList<LinkedList<EObject>> results = new LinkedList<LinkedList<EObject>>();
+
 		Model model = (Model) root;
-		
-		for (NamedElement namedElement : model.getMembers()) {			
-			
+
+		for (NamedElement namedElement : model.getMembers()) {
 			if (namedElement instanceof StateMachine) {
-				
-				for(Region region : ((StateMachine) namedElement).getRegions()) {
-					for(Vertex vertex : region.getSubvertices()) {
-						//vertex is a simple state
-						if(vertex instanceof State && ((State) vertex).isSimple() && 
-								hasSameOutgoingAcitivty(vertex)) {			
-								
+				for (Region region : ((StateMachine) namedElement).getRegions()) {
+					for (Vertex vertex : region.getSubvertices()) {
+						// vertex is a simple state
+						if (vertex instanceof State
+								&& ((State) vertex).isSimple()
+								&& hasSameOutgoingAcitivty(vertex)) {
 							LinkedList<EObject> result = new LinkedList<EObject>();
 							result.add(vertex);
 							results.add(result);
 						}
-						//vertex is a composite state
-						else if(vertex instanceof State && ((State) vertex).isComposite()) {				
-							for(Vertex subVertex : UnnamedStates.getVerticesFromComplexState((State) vertex)) {
-								if(subVertex instanceof State && hasSameOutgoingAcitivty(subVertex)) {							
+						// vertex is a composite state
+						else if (vertex instanceof State
+								&& ((State) vertex).isComposite()) {
+							for (Vertex subVertex : UnnamedStates
+									.getVerticesFromComplexState((State) vertex)) {
+								if (subVertex instanceof State
+										&& hasSameOutgoingAcitivty(subVertex)) {
 									LinkedList<EObject> result = new LinkedList<EObject>();
 									result.add(subVertex);
 									results.add(result);
@@ -49,37 +49,33 @@ LinkedList<LinkedList<EObject>> results = new LinkedList<LinkedList<EObject>>();
 						}
 					}
 				}
-				
 			}
 		}
-		
 		return results;
 	}
-	
-	
-	public boolean hasSameOutgoingAcitivty(Vertex vertex) {		
+
+	public boolean hasSameOutgoingAcitivty(Vertex vertex) {
 		EList<Transition> outgoings = vertex.getOutgoings();
-		
-		if(outgoings.isEmpty())
-			return false;
-		
-		Transition first = outgoings.get(0);
-		if(first.getEffect() == null) 
+
+		if (outgoings.isEmpty())
 			return false;
 
-		//check if all transition have activities with equal attributes
+		Transition first = outgoings.get(0);
+		if (first.getEffect() == null)
+			return false;
+
+		// check if all transition have activities with equal attributes
 		Behavior activity = first.getEffect();
-		
-		//noch möglichkeit suchen um aktivitäten wirklich zu vergleichen nicht nur am namen
-		for(Transition transition : outgoings) {
-			if(transition.getEffect() == null               	||
-					transition.getEffect().getName() == null	|| 
-					!(transition.getEffect().getName().equals(activity.getName())) ) {
-				
+
+		for (Transition transition : outgoings) {
+			if (transition.getEffect() == null
+					|| transition.getEffect().getQualifiedName() == null
+					|| !(transition.getEffect().getQualifiedName()
+							.equals(activity.getQualifiedName()))) {
+
 				return false;
 			}
 		}
-		
 		return true;
-	}	
+	}
 }

@@ -16,10 +16,10 @@ public final class NA implements IMetricCalculator {
 	private String metricID4 = "NOA";
 
 	IOperation operation = Operations.getOperation("Sum");
-	
+
 	@Override
 	public void setContext(List<EObject> context) {
-		this.context = context;	
+		this.context = context;
 	}
 
 	@Override
@@ -39,10 +39,10 @@ public final class NA implements IMetricCalculator {
 		calc3.setContext(this.context);
 		calc4.setContext(this.context);
 
-		double ret = operation.calculate(calc1.calculate(),calc2.calculate());
+		double ret = operation.calculate(calc1.calculate(), calc2.calculate());
 		ret = operation.calculate(ret, calc3.calculate());
 		ret = operation.calculate(ret, calc4.calculate());
-		
+
 		return ret;
 	}
 

@@ -3,7 +3,7 @@
   <packageImport xmi:id="_jwQMoccXEeSY4eA0j8eWsQ">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:StateMachine" xmi:id="_jz-PAMcXEeSY4eA0j8eWsQ" name="StateMachine1">
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_jz-PAMcXEeSY4eA0j8eWsQ" name="StateMachine1" submachineState="_shSxwM7pEeSL78tzP1GZvw">
     <region xmi:id="_j2NDoMcXEeSY4eA0j8eWsQ" name="Region1">
       <transition xmi:id="_jJyNEMcYEeSOzPdOwrY66Q" source="_XJE0QMcYEeSOzPdOwrY66Q" target="_X9SfcMcYEeSOzPdOwrY66Q"/>
       <transition xmi:id="_j8XgkMcYEeSOzPdOwrY66Q" source="_XJE0QMcYEeSOzPdOwrY66Q" target="_a61OoMcYEeSOzPdOwrY66Q">
@@ -32,17 +32,21 @@
       </subvertex>
       <subvertex xmi:type="uml:State" xmi:id="_SIar4McaEeSOzPdOwrY66Q" name="">
         <deferrableTrigger xmi:id="_ru90wNP-EeSOsNb6mS2sVQ" name="trigger3"/>
-        <doActivity xmi:type="uml:Activity" xmi:id="_ZS3OwNbQEeS9opgGERGXYQ" name="dosomething"/>
-        <entry xmi:type="uml:Activity" xmi:id="_l-qPINbUEeSc07ghiR7B9Q"/>
-        <exit xmi:type="uml:Activity" xmi:id="_jOzWoNbUEeSc07ghiR7B9Q"/>
+        <doActivity xmi:type="uml:Activity" xmi:id="_ZS3OwNbQEeS9opgGERGXYQ" name="a"/>
+        <entry xmi:type="uml:Activity" xmi:id="_l-qPINbUEeSc07ghiR7B9Q" name="a"/>
+        <exit xmi:type="uml:Activity" xmi:id="_jOzWoNbUEeSc07ghiR7B9Q" name="a"/>
         <region xmi:id="_pRTfgNP-EeSOsNb6mS2sVQ"/>
       </subvertex>
       <subvertex xmi:type="uml:State" xmi:id="_hYWHYM7pEeSL78tzP1GZvw" name="G">
         <region xmi:id="_pK0lMM7pEeSL78tzP1GZvw">
-          <transition xmi:id="_ulCyMM7pEeSL78tzP1GZvw" source="_qW1sYM7pEeSL78tzP1GZvw" target="_X9SfcMcYEeSOzPdOwrY66Q"/>
-          <transition xmi:id="_zZ8roM7pEeSL78tzP1GZvw" source="_shSxwM7pEeSL78tzP1GZvw" target="_oqh40McYEeSOzPdOwrY66Q"/>
-          <subvertex xmi:type="uml:State" xmi:id="_qW1sYM7pEeSL78tzP1GZvw" name=""/>
-          <subvertex xmi:type="uml:State" xmi:id="_shSxwM7pEeSL78tzP1GZvw" name="M"/>
+          <transition xmi:id="_ulCyMM7pEeSL78tzP1GZvw" name="n" source="_qW1sYM7pEeSL78tzP1GZvw" target="_X9SfcMcYEeSOzPdOwrY66Q">
+            <effect xmi:type="uml:Activity" xmi:id="_XSMRUNvPEeSSj5TsqJtj2g" name="a"/>
+          </transition>
+          <transition xmi:id="_zZ8roM7pEeSL78tzP1GZvw" name="n" source="_shSxwM7pEeSL78tzP1GZvw" target="_X9SfcMcYEeSOzPdOwrY66Q">
+            <effect xmi:type="uml:Activity" xmi:id="_Y_-o0NvPEeSSj5TsqJtj2g" name="a"/>
+          </transition>
+          <subvertex xmi:type="uml:State" xmi:id="_qW1sYM7pEeSL78tzP1GZvw" name="R"/>
+          <subvertex xmi:type="uml:State" xmi:id="_shSxwM7pEeSL78tzP1GZvw" name="M" submachine="_jz-PAMcXEeSY4eA0j8eWsQ"/>
         </region>
       </subvertex>
     </region>

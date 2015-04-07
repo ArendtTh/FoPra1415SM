@@ -13,34 +13,36 @@ import org.eclipse.uml2.uml.StateMachine;
 import org.eclipse.uml2.uml.Vertex;
 import org.eclipse.uml2.uml.Transition;
 
-
 public final class IsolatedStates implements IModelSmellFinder {
 
 	@Override
 	public LinkedList<LinkedList<EObject>> findSmell(EObject root) {
-		
+
 		LinkedList<LinkedList<EObject>> results = new LinkedList<LinkedList<EObject>>();
-		
+
 		Model model = (Model) root;
-		
-		for (NamedElement namedElement : model.getMembers()) {			
-			
+
+		for (NamedElement namedElement : model.getMembers()) {
+
 			if (namedElement instanceof StateMachine) {
-				
-				for(Region region : ((StateMachine) namedElement).getRegions()) {
-					for(Vertex vertex : region.getSubvertices()) {
-						//vertex is a simple state
-						if(vertex instanceof State && ((State) vertex).isSimple() && 
-								isIsolated(vertex)) {				
-								
+
+				for (Region region : ((StateMachine) namedElement).getRegions()) {
+					for (Vertex vertex : region.getSubvertices()) {
+						// vertex is a simple state
+						if (vertex instanceof State
+								&& ((State) vertex).isSimple()
+								&& isIsolated(vertex)) {
 							LinkedList<EObject> result = new LinkedList<EObject>();
 							result.add(vertex);
 							results.add(result);
 						}
-						//vertex is a composite state
-						else if(vertex instanceof State && ((State) vertex).isComposite()) {							
-							for(Vertex subVertex : UnnamedStates.getVerticesFromComplexState((State) vertex)) {
-								if(subVertex instanceof State && isIsolated(subVertex)) {							
+						// vertex is a composite state
+						else if (vertex instanceof State
+								&& ((State) vertex).isComposite()) {
+							for (Vertex subVertex : UnnamedStates
+									.getVerticesFromComplexState((State) vertex)) {
+								if (subVertex instanceof State
+										&& isIsolated(subVertex)) {
 									LinkedList<EObject> result = new LinkedList<EObject>();
 									result.add(subVertex);
 									results.add(result);
@@ -49,15 +51,13 @@ public final class IsolatedStates implements IModelSmellFinder {
 						}
 					}
 				}
-				
 			}
 		}
-		
+
 		return results;
 	}
-	
-	
-	public boolean isIsolated(Vertex vertex) {		
+
+	public boolean isIsolated(Vertex vertex) {
 		EList<Transition> incomings = vertex.getIncomings();
 		return incomings.isEmpty();
 	}

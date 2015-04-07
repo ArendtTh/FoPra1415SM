@@ -30,6 +30,7 @@ public final class NT implements IMetricCalculator {
 		for(Region region : statemachine.getRegions()) {
 			for(Vertex vertex : region.getSubvertices()) {
 				if(vertex instanceof State && ((State) vertex).isComposite()) {
+					
 					for(Vertex subVertex : NSS.getVerticesFromComplexState((State) vertex)) {						
 						for(Transition transition : subVertex.getIncomings()) {
 							if(!found.contains(transition)) {
@@ -66,6 +67,6 @@ public final class NT implements IMetricCalculator {
 		
 	return ret;
 	}
-	
+		
 	
 }

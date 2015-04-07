@@ -10,28 +10,31 @@ import org.eclipse.uml2.uml.StateMachine;
 import org.eclipse.uml2.uml.Vertex;
 
 public final class NDoA implements IMetricCalculator {
-		
-	private List<EObject> context; 
-		
+
+	private List<EObject> context;
+
 	@Override
 	public void setContext(List<EObject> context) {
-		this.context=context;
-	}	
-		
+		this.context = context;
+	}
+
 	@Override
-	public double calculate() {	
+	public double calculate() {
 		StateMachine statemachine = (StateMachine) context.get(0);
 		double ret = 0.0;
-		
-		for(Region region : statemachine.getRegions()) {
-			for(Vertex vertex : region.getSubvertices()) {
-				if(vertex instanceof State && ((State) vertex).isSimple() && hasDoActivity((State) vertex)) {
+
+		for (Region region : statemachine.getRegions()) {
+			for (Vertex vertex : region.getSubvertices()) {
+				if (vertex instanceof State && ((State) vertex).isSimple()
+						&& hasDoActivity((State) vertex)) {
 					ret++;
-				}
-				else if(vertex instanceof State && ((State) vertex).isComposite()) {
-					
-					for(Vertex subVertex : NSS.getVerticesFromComplexState((State) vertex)) {
-						if(subVertex instanceof State && hasDoActivity((State) subVertex)) {
+				} else if (vertex instanceof State
+						&& ((State) vertex).isComposite()) {
+
+					for (Vertex subVertex : NSS
+							.getVerticesFromComplexState((State) vertex)) {
+						if (subVertex instanceof State
+								&& hasDoActivity((State) subVertex)) {
 							ret++;
 						}
 					}
@@ -40,10 +43,9 @@ public final class NDoA implements IMetricCalculator {
 		}
 		return ret;
 	}
-	
-	
+
 	public boolean hasDoActivity(State state) {
 		return state.getDoActivity() != null;
 	}
-	
+
 }

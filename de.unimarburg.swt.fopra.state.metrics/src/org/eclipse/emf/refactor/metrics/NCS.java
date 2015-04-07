@@ -10,32 +10,34 @@ import org.eclipse.uml2.uml.StateMachine;
 import org.eclipse.uml2.uml.Vertex;
 
 public final class NCS implements IMetricCalculator {
-		
-	private List<EObject> context; 
-		
+
+	private List<EObject> context;
+
 	@Override
 	public void setContext(List<EObject> context) {
-		this.context=context;
-	}	
-		
+		this.context = context;
+	}
+
 	@Override
-	public double calculate() {	
+	public double calculate() {
 
 		StateMachine statemachine = (StateMachine) context.get(0);
 		double ret = 0.0;
-		
-		for(Region region : statemachine.getRegions()) {
-			for(Vertex vertex : region.getSubvertices()) {
-				if(vertex instanceof State && ((State) vertex).isComposite()) {
-					for(Vertex subVertex : NSS.getVerticesFromComplexState((State) vertex)) {
-						if(subVertex instanceof State && ((State) subVertex).isComposite()) {
+
+		for (Region region : statemachine.getRegions()) {
+			for (Vertex vertex : region.getSubvertices()) {
+				if (vertex instanceof State && ((State) vertex).isComposite()) {
+					for (Vertex subVertex : NSS
+							.getVerticesFromComplexState((State) vertex)) {
+						if (subVertex instanceof State
+								&& ((State) subVertex).isComposite()) {
 							ret++;
 						}
 					}
-				}				
-			} 
+				}
+			}
 		}
-		
+
 		return ret;
 	}
 }
