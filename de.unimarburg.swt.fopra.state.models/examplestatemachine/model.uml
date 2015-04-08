@@ -5,7 +5,6 @@
   </packageImport>
   <packagedElement xmi:type="uml:StateMachine" xmi:id="_jz-PAMcXEeSY4eA0j8eWsQ" name="StateMachine1" submachineState="_shSxwM7pEeSL78tzP1GZvw">
     <region xmi:id="_j2NDoMcXEeSY4eA0j8eWsQ" name="Region1">
-      <transition xmi:id="_jJyNEMcYEeSOzPdOwrY66Q" source="_XJE0QMcYEeSOzPdOwrY66Q" target="_X9SfcMcYEeSOzPdOwrY66Q"/>
       <transition xmi:id="_j8XgkMcYEeSOzPdOwrY66Q" source="_XJE0QMcYEeSOzPdOwrY66Q" target="_a61OoMcYEeSOzPdOwrY66Q">
         <trigger xmi:id="_zX3HgNP4EeSl6IK_W_9fsg" name="trigger1"/>
       </transition>
@@ -22,7 +21,7 @@
       <subvertex xmi:type="uml:State" xmi:id="_X9SfcMcYEeSOzPdOwrY66Q" name="B">
         <exit xmi:type="uml:Activity" xmi:id="_f4HHoNbUEeSc07ghiR7B9Q"/>
       </subvertex>
-      <subvertex xmi:type="uml:State" xmi:id="_a61OoMcYEeSOzPdOwrY66Q" name="C"/>
+      <subvertex xmi:type="uml:State" xmi:id="_a61OoMcYEeSOzPdOwrY66Q" name="HelloWorld"/>
       <subvertex xmi:type="uml:Pseudostate" xmi:id="_kvip8McYEeSOzPdOwrY66Q" name="" kind="choice"/>
       <subvertex xmi:type="uml:FinalState" xmi:id="_nxsMUMcYEeSOzPdOwrY66Q" name="F"/>
       <subvertex xmi:type="uml:State" xmi:id="_oqh40McYEeSOzPdOwrY66Q" name="E">
