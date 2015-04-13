@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <smellConfiguration>
 <modelsmell>
-<modelsmellId>Complex State Outgoing</modelsmellId>
-</modelsmell>
-<modelsmell>
-<modelsmellId>Isolated States</modelsmellId>
-</modelsmell>
-<modelsmell>
-<modelsmellId>SameIncomingActivity</modelsmellId>
-</modelsmell>
-<modelsmell>
-<modelsmellId>SameOutgoingActivity</modelsmellId>
-</modelsmell>
-<modelsmell>
 <modelsmellId>Unnamed State</modelsmellId>
-</modelsmell>
-<modelsmell>
-<modelsmellId>de.pum.fopra.usm</modelsmellId>
 </modelsmell>
 </smellConfiguration>
